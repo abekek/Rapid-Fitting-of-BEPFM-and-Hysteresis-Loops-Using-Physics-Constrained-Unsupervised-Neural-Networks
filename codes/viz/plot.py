@@ -1,6 +1,16 @@
+"""
+Created on Sun Jan 24 16:34:00 2021
+@author: Alibek Kaliyev
+"""
+
 import matplotlib.pyplot as plt
 import torch
 import numpy as np
+import os
+from os.path import join as pjoin
+import glob
+import moviepy as mpy
+from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
 
 
 def make_movie(movie_name, input_folder, output_folder, file_format,

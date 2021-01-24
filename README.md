@@ -1,3 +1,7 @@
+# Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting
+
+---
+
 For nearly a decade, band-excitation piezoresponse force-based switching spectroscopy (BEPS) has been used to characterize ferroelectric switching and dynamic electromechanical responses of materials with nanoscale resolution. One of the key outputs of this technique is hyperspectral images of piezoelectric hysteresis loops, wherein there are one or more hysteresis loops at every pixel position. The challenge and dedication required to properly analyze data from these experiments have throttled the impact and widespread use of BEPS. To simplify the extraction of information from these datasets, a common approach involves fitting the piezoelectric hysteresis loops to an empirical function to parameterize the loops. This technique has several shortcomings:
 
 It is computationally intensive, requiring more than 24 hours to process a single experiment on a single workstation with parallel processing.
