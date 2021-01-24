@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import torch
+import numpy as np
 
 
 def make_movie(movie_name, input_folder, output_folder, file_format,
