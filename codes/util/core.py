@@ -52,8 +52,6 @@ def loop_fitting_function(V, a1, a2, a3, b1, b2, b3, b4, b5, b6, b7, b8, Au, Al)
 
 def loop_fitting_function_tf(V, y):
 
-    V = data['Voltagedata_mixed'][0:len(data['Voltagedata_mixed']) // 2]
-
     a1 = y[:, 0]
     a2 = y[:, 1]
     a3 = y[:, 2]
