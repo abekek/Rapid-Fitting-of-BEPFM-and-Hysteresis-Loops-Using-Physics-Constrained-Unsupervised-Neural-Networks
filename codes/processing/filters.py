@@ -4,6 +4,7 @@ Created on Sun Jan 24 16:34:00 2021
 """
 
 import numpy as np
+from scipy import interpolate
 
 
 def range_filter(data, ranges):
