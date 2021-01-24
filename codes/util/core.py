@@ -6,6 +6,7 @@ Created on Sun Jan 24 16:34:00 2021
 import torch
 import numpy as np
 import tensorflow as tf
+from scipy import special
 
 
 def SHO_fit_func_torch(parms,
@@ -49,7 +50,7 @@ def loop_fitting_function(V, a1, a2, a3, b1, b2, b3, b4, b5, b6, b7, b8, Au, Al)
     return np.concatenate((Branch1, np.flipud(Branch2)), axis=0).squeeze()
 
 
-def loop_fitting_function_tf(y):
+def loop_fitting_function_tf(V, y):
 
     V = data['Voltagedata_mixed'][0:len(data['Voltagedata_mixed']) // 2]
 
