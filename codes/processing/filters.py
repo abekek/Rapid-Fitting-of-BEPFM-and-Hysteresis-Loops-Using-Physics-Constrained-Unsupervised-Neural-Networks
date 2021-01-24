@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def range_filter(data, ranges):
     """
     includes only data within a range of values as selected by the user.\n
