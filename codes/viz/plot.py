@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import torch
 
 
 def make_movie(movie_name, input_folder, output_folder, file_format,
@@ -51,7 +52,7 @@ def make_movie(movie_name, input_folder, output_folder, file_format,
 
 
 # plots 5 worst and best reconstructions
-def plot_best_worst_SHO(real_data, pred_data):
+def plot_best_worst_SHO(real_data, pred_data, highest, lowest):
     fig, axs = plt.subplots(2, 5, figsize=(15, 7))
     fig.suptitle('5 worst and best reconstructions', fontsize=20)
 
