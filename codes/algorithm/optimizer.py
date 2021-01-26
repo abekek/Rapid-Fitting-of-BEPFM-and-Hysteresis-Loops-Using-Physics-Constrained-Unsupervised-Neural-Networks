@@ -77,6 +77,9 @@ class TRPCGOptimizerv2:
     def computeListNormSq(self, lst):
         return np.sum([tf.reduce_sum(ri*ri) for ri in lst])
 
+    def computeDotProducts(u, v):
+        return tf.reduce_sum(tf.stack([tf.reduce_sum(ui * vi) for ui, vi in zip(u, v)], 0))
+
     def normOfVar(x):
         return tf.sqrt(computeDotProducts(x, x))
 
