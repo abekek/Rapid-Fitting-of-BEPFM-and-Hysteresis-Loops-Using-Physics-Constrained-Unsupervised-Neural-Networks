@@ -77,6 +77,9 @@ class TRPCGOptimizerv2:
     def computeListNormSq(self, lst):
         return np.sum([tf.reduce_sum(ri*ri) for ri in lst])
 
+    def normOfVar(x):
+    return tf.sqrt(computeDotProducts(x, x))
+
     def CGSolver(self, loss_grad, x, y):
         cg_iter = 0  # iteration counter
         x0 = [w.numpy()*0.0 for w in self.model.trainable_weights]
