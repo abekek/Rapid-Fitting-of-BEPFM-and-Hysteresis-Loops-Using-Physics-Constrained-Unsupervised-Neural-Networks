@@ -79,7 +79,7 @@ class TRPCGOptimizerv2:
 
     def CGSolver(self, loss_grad, x, y):
         cg_iter = 0  # iteration counter
-        x0 = [w.numpy()*0.0 for w in model.trainable_weights]
+        x0 = [w.numpy()*0.0 for w in self.model.trainable_weights]
         if self.precondition == 0:
             r0 = [i+0.0 for i in loss_grad]  # set initial residual to gradient
             normGrad = normOfVar(r0)
