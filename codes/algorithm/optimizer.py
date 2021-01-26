@@ -81,14 +81,14 @@ class TRPCGOptimizerv2:
         return tf.reduce_sum(tf.stack([tf.reduce_sum(ui * vi) for ui, vi in zip(u, v)], 0))
 
     def normOfVar(x):
-        return tf.sqrt(computeDotProducts(x, x))
+        return tf.sqrt(self.computeDotProducts(x, x))
 
     def CGSolver(self, loss_grad, x, y):
         cg_iter = 0  # iteration counter
         x0 = [w.numpy()*0.0 for w in self.model.trainable_weights]
         if self.precondition == 0:
             r0 = [i+0.0 for i in loss_grad]  # set initial residual to gradient
-            normGrad = normOfVar(r0)
+            normGrad = self.normOfVar(r0)
             # set initial conjugate direction to -r0
             p0 = [-i+0.0 for i in loss_grad]
             self.cgopttol = self.computeListNormSq(loss_grad)
