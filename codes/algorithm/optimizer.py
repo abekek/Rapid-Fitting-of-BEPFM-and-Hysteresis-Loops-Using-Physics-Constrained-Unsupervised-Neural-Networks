@@ -5,6 +5,7 @@ Created on Sun Jan 24 16:34:00 2021
 
 import numpy as np
 import tensorflow as tf
+import torch
 
 
 class TRPCGOptimizerv2:
