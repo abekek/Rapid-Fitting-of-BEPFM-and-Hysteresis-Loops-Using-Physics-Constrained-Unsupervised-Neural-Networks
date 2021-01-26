@@ -190,13 +190,13 @@ class TRPCGOptimizerv2:
     def computeLossAndGrad(self, x, y):
         with tf.GradientTape() as tape:
             loss = self.computeLoss(x, y)
-        grad = tape.gradient(loss, model.trainable_variables)
+        grad = tape.gradient(loss, self.model.trainable_variables)
         return loss, grad
 
     def step(self, x, y):
 
         loss, grad = self.computeLossAndGrad(x, y)
-        w0 = [w.numpy()+0.0 for w in model.trainable_weights]
+        w0 = [w.numpy()+0.0 for w in self.model.trainable_weights]
         update = 3
 
         while update == 3:
