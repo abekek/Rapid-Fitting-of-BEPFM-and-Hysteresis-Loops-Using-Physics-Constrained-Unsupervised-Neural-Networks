@@ -27,11 +27,11 @@ class TRPCGOptimizerv2:
                 out = self.model(x)
                 loss = tf.keras.losses.mean_squared_error(out, y)
                 loss = tf.reduce_mean(loss)
-            grad = tape2.gradient(loss, model.trainable_variables)
+            grad = tape2.gradient(loss, self.model.trainable_variables)
 
             gradSum = tf.reduce_sum([tf.reduce_sum(g*p0i)
                                      for g, p0i in zip(grad, v)])
-        Hp = tape.gradient(gradSum, model.trainable_variables)
+        Hp = tape.gradient(gradSum, self.model.trainable_variables)
         return Hp
 
     def __init__(self, model, radius, precondition,
@@ -49,7 +49,7 @@ class TRPCGOptimizerv2:
         self.radius_initial = radius_initial
         self.radius = radius
         self.cgmaxiter = sum([tf.size(w).numpy()
-                              for w in model.trainable_weights])
+                              for w in self.model.trainable_weights])
         self.d = self.cgmaxiter
         self.cgmaxiter = min(120, self.cgmaxiter)
         self.iterationCounterForAdamTypePreconditioning = 0
