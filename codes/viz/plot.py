@@ -69,25 +69,25 @@ def plot_best_worst_SHO(real_data, pred_data, highest, lowest):
 
     i = 0
     for x in highest:
-        axs[0, i].plot(np.real(real_data[x]), label='real component initial')
-        axs[0, i].plot(np.imag(real_data[x]),
+        axs[0, i].plot(real_data[x][:, 0]), label='real component initial')
+        axs[0, i].plot(real_data[x][:, 1]),
                        label='imaginary component initial')
-        axs[0, i].plot(np.real(pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()), '-.', label='real component predicted')
-        axs[0, i].plot(np.imag(pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()), '-.', label='imaginary component predicted')
+        axs[0, i].plot(pred_data[x].cpu().detach().type(
+            torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
+        axs[0, i].plot(pred_data[x].cpu().detach().type(
+            torch.complex128).numpy()[:, 1], '-.', label='imaginary component predicted')
         axs[0, i].set_title("#" + str(x))
         i += 1
 
     i = 0
     for x in lowest:
-        axs[1, i].plot(np.real(real_data[x]), label='real component initial')
-        axs[1, i].plot(np.imag(real_data[x]),
+        axs[1, i].plot(real_data[x][:, 0], label='real component initial')
+        axs[1, i].plot(real_data[x][:, 1],
                        label='imaginary component initial')
-        axs[1, i].plot(np.real(pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()), '-.', label='real component predicted')
-        axs[1, i].plot(np.imag(pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()), '-.', label='imaginary component predicted')
+        axs[1, i].plot(pred_data[x].cpu().detach().type(
+            torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
+        axs[1, i].plot(pred_data[x].cpu().detach().type(
+            torch.complex128).numpy()[:, 1], '-.', label='imaginary component predicted')
         axs[1, i].set_title("#" + str(x))
         i += 1
 
