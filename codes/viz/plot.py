@@ -69,8 +69,8 @@ def plot_best_worst_SHO(real_data, pred_data, highest, lowest):
 
     i = 0
     for x in highest:
-        axs[0, i].plot(real_data[x][:, 0]), label='real component initial')
-        axs[0, i].plot(real_data[x][:, 1]),
+        axs[0, i].plot(real_data[x][:, 0], label='real component initial')
+        axs[0, i].plot(real_data[x][:, 1],
                        label='imaginary component initial')
         axs[0, i].plot(pred_data[x].cpu().detach().type(
             torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
