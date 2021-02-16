@@ -63,7 +63,7 @@ def make_movie(movie_name, input_folder, output_folder, file_format,
 
 
 # plots 5 worst and best reconstructions
-def plot_best_worst_SHO(real_data, pred_data, highest, lowest):
+def plot_best_worst_SHO(real_data, pred_data, highest):
     fig, axs = plt.subplots(2, 5, figsize=(15, 7))
     fig.suptitle('5 worst and best reconstructions', fontsize=20)
 
@@ -79,8 +79,8 @@ def plot_best_worst_SHO(real_data, pred_data, highest, lowest):
         axs[0, i].set_title("#" + str(x))
         i += 1
 
-    i = 0
-    for x in lowest:
+    for i in range(5):
+        x = np.random.randint(0, real_data.shape[0])
         axs[1, i].plot(real_data[x][:, 0], label='real component initial')
         axs[1, i].plot(real_data[x][:, 1],
                        label='imaginary component initial')
