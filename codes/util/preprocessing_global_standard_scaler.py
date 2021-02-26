@@ -6,7 +6,7 @@ Created on Sun Jan 24 16:34:00 2021
 import numpy as np
 
 
-class my_scaler:
+class global_standard_scaler:
 
     def __init__(self):
         self.mean = 0
