@@ -62,7 +62,7 @@ def loop_fitting_function(type, V, y):
 
         loop_eval = np.hstack((f1, f2))
         return loop_eval
-    else if(type == '13 parameters'):
+    elif(type == '13 parameters'):
         a1 = y[:, 0]
         a2 = y[:, 1]
         a3 = y[:, 2]
@@ -115,7 +115,7 @@ def loop_fitting_function_tf(type, V, y):
 
         return tf.transpose(tf.concat([f1, f2], axis=0))
 
-    else if(type == '13 parameters'):
+    elif(type == '13 parameters'):
 
         a1 = y[:, 0]
         a2 = y[:, 1]
