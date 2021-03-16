@@ -51,11 +51,11 @@ def loop_fitting_function(type, V, y):
         b3 = y[:, :, 8]
         d = 1000
 
-        g1 = (b1 - b0) / 2 * (erf((V - a2) * d) + 1) + b0
-        g2 = (b3 - b2) / 2 * (erf((V - a3) * d) + 1) + b2
+        g1 = (b1 - b0) / 2 * (special.erf((V - a2) * d) + 1) + b0
+        g2 = (b3 - b2) / 2 * (special.erf((V - a3) * d) + 1) + b2
 
-        y1 = (g1 * erf((V - a2) / g1) + b0) / (b0 + b1)
-        y2 = (g2 * erf((V - a3) / g2) + b2) / (b2 + b3)
+        y1 = (g1 * special.erf((V - a2) / g1) + b0) / (b0 + b1)
+        y2 = (g2 * special.erf((V - a3) / g2) + b2) / (b2 + b3)
 
         f1 = a0 + a1 * y1 + a4 * V
         f2 = a0 + a1 * y2 + a4 * V
