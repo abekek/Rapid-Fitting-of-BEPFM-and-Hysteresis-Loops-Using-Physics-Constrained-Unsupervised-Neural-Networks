@@ -60,7 +60,7 @@ def loop_fitting_function(type, V, y):
         f1 = a0 + a1 * y1 + a4 * V
         f2 = a0 + a1 * y2 + a4 * V
 
-        loop_eval = np.hstack((f1, f2))
+        loop_eval = np.concatenate((f1, np.flipud(f2)), axis=0).squeeze()
         return loop_eval
     elif(type == '13 parameters'):
         a1 = y[:, 0]
@@ -93,15 +93,15 @@ def loop_fitting_function(type, V, y):
 
 def loop_fitting_function_tf(type, V, y):
     if(type == '9 parameters'):
-        a0 = y[:, :, 0]
-        a1 = y[:, :, 1]
-        a2 = y[:, :, 2]
-        a3 = y[:, :, 3]
-        a4 = y[:, :, 4]
-        b0 = y[:, :, 5]
-        b1 = y[:, :, 6]
-        b2 = y[:, :, 7]
-        b3 = y[:, :, 8]
+        a0 = y[:, 0]
+        a1 = y[:, 1]
+        a2 = y[:, 2]
+        a3 = y[:, 3]
+        a4 = y[:, 4]
+        b0 = y[:, 5]
+        b1 = y[:, 6]
+        b2 = y[:, 7]
+        b3 = y[:, 8]
         d = 1000
 
         g1 = tf.add(tf.multiply(tf.divide(tf.subtract(b1, b0), 2), tf.add(tf.multiply(tf.math.erf(tf.subtract(V, a2)), d), 1)), b0)
