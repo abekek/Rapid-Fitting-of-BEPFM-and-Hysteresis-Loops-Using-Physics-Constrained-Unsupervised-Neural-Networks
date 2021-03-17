@@ -40,15 +40,15 @@ def SHO_fit_func_torch(parms,
 def loop_fitting_function(type, V, y):
 
     if(type == '9 parameters'):
-        a0 = y[:, :, 0]
-        a1 = y[:, :, 1]
-        a2 = y[:, :, 2]
-        a3 = y[:, :, 3]
-        a4 = y[:, :, 4]
-        b0 = y[:, :, 5]
-        b1 = y[:, :, 6]
-        b2 = y[:, :, 7]
-        b3 = y[:, :, 8]
+        a0 = y[:, 0]
+        a1 = y[:, 1]
+        a2 = y[:, 2]
+        a3 = y[:, 3]
+        a4 = y[:, 4]
+        b0 = y[:, 5]
+        b1 = y[:, 6]
+        b2 = y[:, 7]
+        b3 = y[:, 8]
         d = 1000
 
         g1 = (b1 - b0) / 2 * (special.erf((V - a2) * d) + 1) + b0
