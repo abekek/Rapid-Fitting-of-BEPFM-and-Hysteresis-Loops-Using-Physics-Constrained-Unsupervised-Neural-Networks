@@ -50,17 +50,19 @@ def loop_fitting_function(type, V, y):
         b2 = y[:, 7]
         b3 = y[:, 8]
         d = 1000
+        V1 = V[:int(len(V) / 2)]
+        V2 = V[int(len(V) / 2):]
 
-        g1 = (b1 - b0) / 2 * (special.erf((V - a2) * d) + 1) + b0
-        g2 = (b3 - b2) / 2 * (special.erf((V - a3) * d) + 1) + b2
+        g1 = (b1 - b0) / 2 * (special.erf((V1 - a2) * d) + 1) + b0
+        g2 = (b3 - b2) / 2 * (special.erf((V2 - a3) * d) + 1) + b2
 
-        y1 = (g1 * special.erf((V - a2) / g1) + b0) / (b0 + b1)
-        y2 = (g2 * special.erf((V - a3) / g2) + b2) / (b2 + b3)
+        y1 = (g1 * special.erf((V1 - a2) / g1) + b0) / (b0 + b1)
+        y2 = (g2 * special.erf((V2 - a3) / g2) + b2) / (b2 + b3)
 
-        f1 = a0 + a1 * y1 + a4 * V
-        f2 = a0 + a1 * y2 + a4 * V
+        f1 = a0 + a1 * y1 + a4 * V1
+        f2 = a0 + a1 * y2 + a4 * V2
 
-        loop_eval = np.concatenate((f1, np.flipud(f2)), axis=0).squeeze()
+        loop_eval = np.vstack((f1, f2))
         return loop_eval
     elif(type == '13 parameters'):
         a1 = y[:, 0]
@@ -103,15 +105,17 @@ def loop_fitting_function_tf(type, V, y):
         b2 = y[:, 7]
         b3 = y[:, 8]
         d = 1000
+        V1 = V[:int(len(V) / 2)]
+        V2 = V[int(len(V) / 2):]
 
-        g1 = tf.add(tf.multiply(tf.divide(tf.subtract(b1, b0), 2), tf.add(tf.multiply(tf.math.erf(tf.subtract(V, a2)), d), 1)), b0)
-        g2 = tf.add(tf.multiply(tf.divide(tf.subtract(b3, b2), 2), tf.add(tf.multiply(tf.math.erf(tf.subtract(V, a3)), d), 1)), b2)
+        g1 = tf.add(tf.multiply(tf.divide(tf.subtract(b1, b0), 2), tf.add(tf.math.erf(tf.multiply(tf.subtract(V1, a2), d)), 1)), b0)
+        g2 = tf.add(tf.multiply(tf.divide(tf.subtract(b3, b2), 2), tf.add(tf.math.erf(tf.multiply(tf.subtract(V2, a3), d)), 1)), b2)
 
-        y1 = tf.divide(tf.add(tf.multiply(g1, tf.math.erf(tf.divide(tf.subtract(V, a2), g1))), b0), tf.add(b0, b1))
-        y2 = tf.divide(tf.add(tf.multiply(g2, tf.math.erf(tf.divide(tf.subtract(V, a3), g2))), b2), tf.add(b2, b3))
+        y1 = tf.divide(tf.add(tf.multiply(g1, tf.math.erf(tf.divide(tf.subtract(V1, a2), g1))), b0), tf.add(b0, b1))
+        y2 = tf.divide(tf.add(tf.multiply(g2, tf.math.erf(tf.divide(tf.subtract(V2, a3), g2))), b2), tf.add(b2, b3))
 
-        f1 = tf.add(a0, tf.add(tf.multiply(a1, y1), tf.multiply(a4, V)))
-        f2 = tf.add(a0, tf.add(tf.multiply(a1, y2), tf.multiply(a4, V)))
+        f1 = tf.add(a0, tf.add(tf.multiply(a1, y1), tf.multiply(a4, V1)))
+        f2 = tf.add(a0, tf.add(tf.multiply(a1, y2), tf.multiply(a4, V2)))
 
         return tf.transpose(tf.concat([f1, f2], axis=0))
 
