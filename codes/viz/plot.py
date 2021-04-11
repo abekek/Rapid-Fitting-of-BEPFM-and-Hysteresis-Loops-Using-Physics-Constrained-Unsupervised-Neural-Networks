@@ -97,7 +97,7 @@ def plot_best_worst_SHO(real_data, pred_data, highest):
 
 
 # plots 5 worst and best hysteresis loops
-def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, scaled_loops_, highest, lowest):
+def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, scaled_loops_, highest, lowest, num_pix=3600):
     fig, axs = plt.subplots(3, 5, figsize=(15, 10))
     fig.suptitle('5 worst, best, and random loops', fontsize=20)
 
