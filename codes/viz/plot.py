@@ -134,5 +134,5 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
         axs[2, i].set_title("#" + str(j))
 
     plt.tight_layout()
-    plt.legend(bbox_to_anchor=(1.05, 4.7), loc='upper right', borderaxespad=0.)
+    plt.legend(bbox_to_anchor=(1.05, 4.5), loc='upper right', borderaxespad=0.)
     fig.subplots_adjust(top=0.87)
