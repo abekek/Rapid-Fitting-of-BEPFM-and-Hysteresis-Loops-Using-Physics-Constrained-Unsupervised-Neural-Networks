@@ -92,14 +92,14 @@ def plot_best_worst_SHO(real_data, pred_data, highest):
         i += 1
 
     plt.tight_layout()
-    plt.legend(bbox_to_anchor=(1.05, 3.5), loc='upper right', borderaxespad=0.)
+    plt.legend(bbox_to_anchor=(1.05, 2.7), loc='upper right', borderaxespad=0.)
     fig.subplots_adjust(top=0.87)
 
 
 # plots 5 worst and best hysteresis loops
 def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, scaled_loops_, highest, lowest):
-    fig, axs = plt.subplots(2, 5, figsize=(15, 7))
-    fig.suptitle('5 worst and best loops', fontsize=20)
+    fig, axs = plt.subplots(3, 5, figsize=(15, 10))
+    fig.suptitle('5 worst, best, and random loops', fontsize=20)
 
     i = 0
     for x in highest:
@@ -108,7 +108,7 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
         axs[0, i].plot(voltage, scaled_loops_DNN_trust[x], 'b--',
                        label='small DNN model with trust region')
         axs[0, i].plot(voltage, scaled_loops_[x], 'g',
-                       label='real_loops_scaled ')
+                       label='real_loops_scaled (conventional fits)')
         axs[0, i].set_title("#" + str(x))
         i += 1
 
@@ -119,10 +119,20 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
         axs[1, i].plot(voltage, scaled_loops_DNN_trust[x], 'b--',
                        label='small DNN model with trust region')
         axs[1, i].plot(voltage, scaled_loops_[x], 'g',
-                       label='real_loops_scaled ')
+                       label='real_loops_scaled (conventional fits)')
         axs[1, i].set_title("#" + str(x))
         i += 1
 
+    for i in range(5):
+        j = np.random.randint(0, num_pix)
+        axs[2, i].plot(voltage, scaled_loops_DNN[j],
+                       'r--', label='small DNN model')
+        axs[2, i].plot(voltage, scaled_loops_DNN_trust[j], 'b--',
+                       label='small DNN model with trust region')
+        axs[2, i].plot(voltage, scaled_loops_[j], 'g',
+                       label='real_loops_scaled (conventional fits)')
+        axs[2, i].set_title("#" + str(j))
+
     plt.tight_layout()
-    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper right', borderaxespad=0.)
+    plt.legend(bbox_to_anchor=(1.05, 2.7), loc='upper right', borderaxespad=0.)
     fig.subplots_adjust(top=0.87)

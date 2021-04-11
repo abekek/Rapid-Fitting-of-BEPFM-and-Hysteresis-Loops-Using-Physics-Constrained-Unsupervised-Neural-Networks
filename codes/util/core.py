@@ -7,6 +7,10 @@ import torch
 import numpy as np
 import tensorflow as tf
 from scipy import special
+import os
+import sidpy
+from BGlib.BGlib import be as belib
+import h5py
 
 
 def SHO_fit_func_torch(parms,
@@ -155,3 +159,35 @@ def computeDotProducts(u, v):
 
 def normOfVar(x):
     return tf.sqrt(computeDotProducts(x, x))
+
+def fit_loop_function(h5_file, h5_sho_fit, loop_success = False, h5_loop_group = None,\
+                      results_to_new_file = False, max_mem=1024*8, max_cores = None):
+    expt_type = sidpy.hdf.hdf_utils.get_attr(h5_file, 'data_type')
+    h5_meas_grp = h5_main.parent.parent.parent
+    vs_mode = sidpy.hdf.hdf_utils.get_attr(h5_meas_grp, 'VS_mode')
+    try:
+        vs_cycle_frac = sidpy.hdf.hdf_utils.get_attr(h5_meas_grp, 'VS_cycle_fraction')
+    except KeyError:
+        print('VS cycle fraction could not be found. Setting to default value')
+        vs_cycle_frac = 'full'
+    if results_to_new_file:
+        h5_loop_file_path = os.path.join(folder_path, 
+                                         h5_raw_file_name.replace('.h5', '_loop_fit.h5'))
+        print('\n\nLoop Fits will be written to:\n' + h5_loop_file_path + '\n\n')
+        f_open_mode = 'w'
+        if os.path.exists(h5_loop_file_path):
+            f_open_mode = 'r+'
+        h5_loop_file = h5py.File(h5_loop_file_path, mode=f_open_mode)
+        h5_loop_group = h5_loop_file
+    loop_fitter = belib.analysis.BELoopFitter(h5_sho_fit, expt_type, vs_mode, vs_cycle_frac,
+                                           cores=max_cores, h5_target_group=h5_loop_group, 
+                                           verbose=False)
+    loop_fitter.set_up_guess()
+    h5_loop_guess = loop_fitter.do_guess(override=False)
+    # Calling explicitely here since Fitter won't do it automatically
+    h5_guess_loop_parms = loop_fitter.extract_loop_parameters(h5_loop_guess)
+    loop_fitter.set_up_fit()
+    h5_loop_fit = loop_fitter.do_fit(override=False)
+    h5_loop_group = h5_loop_fit.parent
+    loop_success = True
+    return h5_loop_fit, h5_loop_group
