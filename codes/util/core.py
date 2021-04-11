@@ -163,7 +163,7 @@ def normOfVar(x):
 def fit_loop_function(h5_file, h5_sho_fit, loop_success = False, h5_loop_group = None,\
                       results_to_new_file = False, max_mem=1024*8, max_cores = None):
     expt_type = sidpy.hdf.hdf_utils.get_attr(h5_file, 'data_type')
-    h5_meas_grp = h5_main.parent.parent.parent
+    h5_meas_grp = h5_sho_fit.parent.parent.parent
     vs_mode = sidpy.hdf.hdf_utils.get_attr(h5_meas_grp, 'VS_mode')
     try:
         vs_cycle_frac = sidpy.hdf.hdf_utils.get_attr(h5_meas_grp, 'VS_cycle_fraction')
