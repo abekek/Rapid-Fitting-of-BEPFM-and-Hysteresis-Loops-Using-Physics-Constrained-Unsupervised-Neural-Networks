@@ -1,3 +1,4 @@
+torch==1.8.0.dev20210123+cu101
 numpy==1.19.5
 numpy_groupies==0.9.7
 dask==2.12.0
@@ -6,7 +7,6 @@ tensorflow==2.4.1
 sidpy==0.0.5
 ipywidgets==7.6.3
 scikit_image==0.16.2
-torch==1.9.0.dev20210415+cu101
 joblib==1.0.1
 pip==19.3.1
 ipython==7.22.0
