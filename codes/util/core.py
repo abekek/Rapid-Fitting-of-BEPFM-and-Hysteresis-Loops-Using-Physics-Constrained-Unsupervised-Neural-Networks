@@ -193,7 +193,7 @@ def fit_loop_function(h5_file, h5_sho_fit, loop_success = False, h5_loop_group =
     loop_success = True
     return h5_loop_fit, h5_loop_group
 
-def computeTime(model, train_dataloader, device='cuda', batch_size):
+def computeTime(model, train_dataloader, batch_size, device='cuda'):
     if device == 'cuda':
         model = model.cuda()
         inputs = train_dataloader.cuda()
