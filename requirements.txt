@@ -1,4 +1,4 @@
-torch==1.9.0.dev20210415+cu101 torchvision-0.10.0.dev20210418+cu101
+--find-links --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cu101/torch_nightly.html -U
 numpy==1.19.5
 numpy_groupies==0.9.7
 dask==2.12.0
