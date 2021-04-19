@@ -213,5 +213,5 @@ def computeTime(model, train_dataloader, batch_size, device='cuda'):
             time_spent.append(time.time() - start_time)
         i += 1
 
-    time_print = (np.mean(time_spent)*1000)/bs
+    time_print = (np.mean(time_spent)*1000)/batch_size
     print(f'Avg execution time (ms): {time_print:.6f}')
