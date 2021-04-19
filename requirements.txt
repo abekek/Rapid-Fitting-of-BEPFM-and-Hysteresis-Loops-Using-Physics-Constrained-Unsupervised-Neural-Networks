@@ -1,4 +1,3 @@
---find-links --pre torch torchvision -f https://download.pytorch.org/whl/nightly/cu101/torch_nightly.html
 numpy==1.19.5
 numpy_groupies==0.9.7
 dask==2.12.0
@@ -21,3 +20,11 @@ h5py==3.2.1
 matplotlib==3.4.1
 moviepy==1.0.3
 scipy==1.6.2
+autopep8==1.5.4
+Pillow==8.1.0
+pycodestyle==2.6.0
+toml==0.10.2
+torch==1.8.0.dev20210123+cu101
+torchaudio==0.7.2
+torchvision==0.8.2+cu101
+typing-extensions==3.7.4.3
