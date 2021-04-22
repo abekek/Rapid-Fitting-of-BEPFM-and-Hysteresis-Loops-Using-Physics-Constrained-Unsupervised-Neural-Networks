@@ -69,7 +69,7 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
 
     i = 0
     for x in highest:
-        axs[0, i].plot(wvec_freq, real_data[x][:, 0], 'o',
+        axs[0, i].plot(wvec_freq, real_data[x][:, 0], 'o', markersize=4,
                         label='real component initial')
         axs[0, i].plot(wvec_freq, real_data[x][:, 1], 's',
                         label='imaginary component initial')
@@ -83,7 +83,7 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
 
     for i in range(5):
         x = np.random.randint(0, real_data.shape[0])
-        axs[1, i].plot(wvec_freq, real_data[x][:, 0], 'o', 
+        axs[1, i].plot(wvec_freq, real_data[x][:, 0], 'o', markersize=4,
                         label='real component initial')
         axs[1, i].plot(wvec_freq, real_data[x][:, 1], 's',
                         label='imaginary component initial')
@@ -113,7 +113,7 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
                        'r--', label='small DNN model')
         axs[0, i].plot(voltage, scaled_loops_DNN_trust[x], 'b--',
                        label='small DNN model with trust region')
-        axs[0, i].plot(voltage, scaled_loops_[x], 'o',
+        axs[0, i].plot(voltage, scaled_loops_[x], 'o', markersize=4,
                        label='real_loops_scaled (conventional fits)')
         axs[0, i].set_title("#" + str(x))
         axs[0, i].set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
@@ -125,7 +125,7 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
                        'r--', label='small DNN model')
         axs[1, i].plot(voltage, scaled_loops_DNN_trust[x], 'b--',
                        label='small DNN model with trust region')
-        axs[1, i].plot(voltage, scaled_loops_[x], 'o',
+        axs[1, i].plot(voltage, scaled_loops_[x], 'o', markersize=4,
                        label='real_loops_scaled (conventional fits)')
         axs[1, i].set_title("#" + str(x))
         axs[1, i].set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
@@ -137,7 +137,7 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
                        'r--', label='small DNN model')
         axs[2, i].plot(voltage, scaled_loops_DNN_trust[j], 'b--',
                        label='small DNN model with trust region')
-        axs[2, i].plot(voltage, scaled_loops_[j], 'o',
+        axs[2, i].plot(voltage, scaled_loops_[j], 'o', markersize=4,
                        label='real_loops_scaled (conventional fits)')
         axs[2, i].set_title("#" + str(j))
         axs[2, i].set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
