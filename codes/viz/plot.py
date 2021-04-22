@@ -63,32 +63,38 @@ def make_movie(movie_name, input_folder, output_folder, file_format,
 
 
 # plots 5 worst and best reconstructions
-def plot_best_worst_SHO(real_data, pred_data, highest):
+def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
     fig, axs = plt.subplots(2, 5, figsize=(15, 7))
     fig.suptitle('5 worst and best reconstructions', fontsize=20)
 
     i = 0
     for x in highest:
-        axs[0, i].plot(real_data[x][:, 0], label='real component initial')
-        axs[0, i].plot(real_data[x][:, 1],
-                       label='imaginary component initial')
-        axs[0, i].plot(pred_data[x].cpu().detach().type(
+        axs[0, i].plot(wvec_freq, real_data[x][:, 0], 'o',
+                        label='real component initial')
+        axs[0, i].plot(wvec_freq, real_data[x][:, 1], 's',
+                        label='imaginary component initial')
+        axs[0, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
             torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
-        axs[0, i].plot(pred_data[x].cpu().detach().type(
+        axs[0, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
             torch.complex128).numpy()[:, 1], '-.', label='imaginary component predicted')
         axs[0, i].set_title("#" + str(x))
+        axs[0, i].set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     for i in range(5):
         x = np.random.randint(0, real_data.shape[0])
-        axs[1, i].plot(real_data[x][:, 0], label='real component initial')
-        axs[1, i].plot(real_data[x][:, 1],
-                       label='imaginary component initial')
-        axs[1, i].plot(pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
-        axs[1, i].plot(pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()[:, 1], '-.', label='imaginary component predicted')
+        axs[1, i].plot(wvec_freq, real_data[x][:, 0], 'o', 
+                        label='real component initial')
+        axs[1, i].plot(wvec_freq, real_data[x][:, 1], 's',
+                        label='imaginary component initial')
+        axs[1, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
+            torch.complex128).numpy()[:, 0], '-.', 
+                        label='real component predicted')
+        axs[1, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
+            torch.complex128).numpy()[:, 1], '-.', 
+                        label='imaginary component predicted')
         axs[1, i].set_title("#" + str(x))
+        axs[1, i].set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     plt.tight_layout()
@@ -107,9 +113,10 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
                        'r--', label='small DNN model')
         axs[0, i].plot(voltage, scaled_loops_DNN_trust[x], 'b--',
                        label='small DNN model with trust region')
-        axs[0, i].plot(voltage, scaled_loops_[x], 'g',
+        axs[0, i].plot(voltage, scaled_loops_[x], 'o',
                        label='real_loops_scaled (conventional fits)')
         axs[0, i].set_title("#" + str(x))
+        axs[0, i].set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     i = 0
@@ -118,9 +125,10 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
                        'r--', label='small DNN model')
         axs[1, i].plot(voltage, scaled_loops_DNN_trust[x], 'b--',
                        label='small DNN model with trust region')
-        axs[1, i].plot(voltage, scaled_loops_[x], 'g',
+        axs[1, i].plot(voltage, scaled_loops_[x], 'o',
                        label='real_loops_scaled (conventional fits)')
         axs[1, i].set_title("#" + str(x))
+        axs[1, i].set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     for i in range(5):
@@ -129,9 +137,10 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
                        'r--', label='small DNN model')
         axs[2, i].plot(voltage, scaled_loops_DNN_trust[j], 'b--',
                        label='small DNN model with trust region')
-        axs[2, i].plot(voltage, scaled_loops_[j], 'g',
+        axs[2, i].plot(voltage, scaled_loops_[j], 'o',
                        label='real_loops_scaled (conventional fits)')
         axs[2, i].set_title("#" + str(j))
+        axs[2, i].set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
 
     plt.tight_layout()
     plt.legend(bbox_to_anchor=(1.05, 4.0), loc='upper right', borderaxespad=0.)
