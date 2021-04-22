@@ -71,7 +71,7 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
     for x in highest:
         axs[0, i].plot(wvec_freq, real_data[x][:, 0], 'o', markersize=4,
                         label='real component initial')
-        axs[0, i].plot(wvec_freq, real_data[x][:, 1], 's',
+        axs[0, i].plot(wvec_freq, real_data[x][:, 1], 's', markersize=4,
                         label='imaginary component initial')
         axs[0, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
             torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
@@ -85,7 +85,7 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
         x = np.random.randint(0, real_data.shape[0])
         axs[1, i].plot(wvec_freq, real_data[x][:, 0], 'o', markersize=4,
                         label='real component initial')
-        axs[1, i].plot(wvec_freq, real_data[x][:, 1], 's',
+        axs[1, i].plot(wvec_freq, real_data[x][:, 1], 's', markersize=4,
                         label='imaginary component initial')
         axs[1, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
             torch.complex128).numpy()[:, 0], '-.', 
