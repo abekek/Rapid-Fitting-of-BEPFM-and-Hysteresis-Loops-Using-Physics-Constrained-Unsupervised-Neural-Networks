@@ -31,3 +31,8 @@ def transform_params(params_real, params_pred):
         params_real[:, 3] < np.pi, params_real[:, 3], params_real[:, 3] - 2 * np.pi)
 
     return params_real, params_pred
+
+def convert_real_imag(data, type_data='stacked'):
+  magnitude = np.abs(data)
+  phase = np.angle(data)
+  return magnitude, phase
