@@ -11,6 +11,7 @@ from os.path import join as pjoin
 import glob
 import moviepy as mpy
 from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
+from ..util.postprocessing import convert_real_imag
 
 
 def make_movie(movie_name, input_folder, output_folder, file_format,
@@ -69,32 +70,34 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
 
     i = 0
     for x in highest:
-        axs[0, i].plot(wvec_freq, real_data[x][:, 0], 'o', markersize=4,
-                        label='real component initial')
-        axs[0, i].plot(wvec_freq, real_data[x][:, 1], 's', markersize=4,
-                        label='imaginary component initial')
-        axs[0, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()[:, 0], '-.', label='real component predicted')
-        axs[0, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()[:, 1], '-.', label='imaginary component predicted')
-        axs[0, i].set_title("#" + str(x))
-        axs[0, i].set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
+        magnitude_graph_real, phase_graph_real = convert_real_imag(np.atleast_2d(real_data[x, :]))
+        magnitude_graph_pred, phase_graph_pred = convert_real_imag(np.atleast_2d(pred_data[x, :]))
+
+        axs[0, i].plot(wvec_freq, magnitude_graph_real[0, :], 'o', markersize=4,
+                        label='amplitude initial')
+        axs[0, i].plot(wvec_freq, phase_graph_real[0, :], 's', markersize=4,
+                        label='phase initial')
+        ax2 = axs[0, i].twinx()
+        ax2.plot(wvec_freq, magnitude_graph_pred[0, :], '-.', label='amplitude pred')
+        ax2.plot(wvec_freq, phase_graph_pred[0, :], '-.', label='phase pred')
+        ax2.set_title("#" + str(x))
+        ax2.set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     for i in range(5):
         x = np.random.randint(0, real_data.shape[0])
-        axs[1, i].plot(wvec_freq, real_data[x][:, 0], 'o', markersize=4,
-                        label='real component initial')
-        axs[1, i].plot(wvec_freq, real_data[x][:, 1], 's', markersize=4,
-                        label='imaginary component initial')
-        axs[1, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()[:, 0], '-.', 
-                        label='real component predicted')
-        axs[1, i].plot(wvec_freq, pred_data[x].cpu().detach().type(
-            torch.complex128).numpy()[:, 1], '-.', 
-                        label='imaginary component predicted')
-        axs[1, i].set_title("#" + str(x))
-        axs[1, i].set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
+        magnitude_graph_real, phase_graph_real = convert_real_imag(np.atleast_2d(real_data[x, :]))
+        magnitude_graph_pred, phase_graph_pred = convert_real_imag(np.atleast_2d(pred_data[x, :]))
+
+        axs[1, i].plot(wvec_freq, magnitude_graph_real[0, :], 'o', markersize=4,
+                        label='amplitude initial')
+        axs[1, i].plot(wvec_freq, phase_graph_real[0, :], 's', markersize=4,
+                        label='phase initial')
+        ax2 = axs[1, i].twinx()
+        ax2.plot(wvec_freq, magnitude_graph_pred[0, :], '-.', label='amplitude pred')
+        ax2.plot(wvec_freq, phase_graph_pred[0, :], '-.', label='phase pred')
+        ax2.set_title("#" + str(x))
+        ax2.set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     plt.tight_layout()
