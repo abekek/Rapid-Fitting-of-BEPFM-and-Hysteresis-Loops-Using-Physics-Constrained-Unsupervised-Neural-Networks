@@ -65,7 +65,7 @@ def make_movie(movie_name, input_folder, output_folder, file_format,
 
 # plots 5 worst and best reconstructions
 def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
-    fig, axs = plt.subplots(2, 5, figsize=(15, 7))
+    fig, axs = plt.subplots(2, 5, figsize=(20, 7))
     fig.suptitle('5 worst and best reconstructions', fontsize=20)
 
     i = 0
@@ -74,14 +74,14 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
         magnitude_graph_pred, phase_graph_pred = convert_real_imag(np.atleast_2d(pred_data[x, :]))
 
         axs[0, i].plot(wvec_freq, magnitude_graph_real[0, :], 'o', markersize=4,
-                        label='amplitude initial')
-        axs[0, i].plot(wvec_freq, phase_graph_real[0, :], 's', markersize=4,
-                        label='phase initial')
-        ax2 = axs[0, i].twinx()
-        ax2.plot(wvec_freq, magnitude_graph_pred[0, :], '-.', label='amplitude pred')
-        ax2.plot(wvec_freq, phase_graph_pred[0, :], '-.', label='phase pred')
-        ax2.set_title("#" + str(x))
-        ax2.set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
+                        label='amplitude initial', color='b')
+        axs[0, i].plot(wvec_freq, magnitude_graph_pred[0, :], '-.', label='amplitude pred', color='b')
+        ax1 = axs[0, i].twinx()
+        ax1.plot(wvec_freq, phase_graph_real[0, :], 's', markersize=4,
+                        label='phase initial', color='r')
+        ax1.plot(wvec_freq, phase_graph_pred[0, :], '-.', label='phase pred', color='r')
+        ax1.set_title("#" + str(x))
+        ax1.set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
         i += 1
 
     for i in range(5):
@@ -90,12 +90,12 @@ def plot_best_worst_SHO(real_data, pred_data, highest, wvec_freq):
         magnitude_graph_pred, phase_graph_pred = convert_real_imag(np.atleast_2d(pred_data[x, :]))
 
         axs[1, i].plot(wvec_freq, magnitude_graph_real[0, :], 'o', markersize=4,
-                        label='amplitude initial')
-        axs[1, i].plot(wvec_freq, phase_graph_real[0, :], 's', markersize=4,
-                        label='phase initial')
+                        label='amplitude initial', color='b')
+        axs[1, i].plot(wvec_freq, magnitude_graph_pred[0, :], '-.', label='amplitude pred', color='b')
         ax2 = axs[1, i].twinx()
-        ax2.plot(wvec_freq, magnitude_graph_pred[0, :], '-.', label='amplitude pred')
-        ax2.plot(wvec_freq, phase_graph_pred[0, :], '-.', label='phase pred')
+        ax2.plot(wvec_freq, phase_graph_real[0, :], 's', markersize=4,
+                        label='phase initial', color='r')
+        ax2.plot(wvec_freq, phase_graph_pred[0, :], '-.', label='phase pred', color='r')
         ax2.set_title("#" + str(x))
         ax2.set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
         i += 1
