@@ -13,9 +13,8 @@ from BGlib.BGlib import be as belib
 import h5py
 import time
 from sidpy.hdf.hdf_utils import write_simple_attrs, get_attr
-from pyUSID.io.hdf_utils import create_results_group, write_main_dataset, 
-                                write_reduced_anc_dsets, create_empty_dataset, 
-                                reshape_to_n_dims, get_auxiliary_datasets
+from pyUSID.io.hdf_utils import create_results_group, write_main_dataset, \
+                                write_reduced_anc_dsets, create_empty_dataset, reshape_to_n_dims, get_auxiliary_datasets
 
 
 def SHO_fit_func_torch(parms,
