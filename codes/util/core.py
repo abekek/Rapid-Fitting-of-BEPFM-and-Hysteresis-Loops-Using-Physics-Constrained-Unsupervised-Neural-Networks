@@ -12,6 +12,10 @@ import sidpy
 from BGlib.BGlib import be as belib
 import h5py
 import time
+from sidpy.hdf.hdf_utils import write_simple_attrs, get_attr
+from pyUSID.io.hdf_utils import create_results_group, write_main_dataset, 
+                                write_reduced_anc_dsets, create_empty_dataset, 
+                                reshape_to_n_dims, get_auxiliary_datasets
 
 
 def SHO_fit_func_torch(parms,
@@ -192,6 +196,66 @@ def fit_loop_function(h5_file, h5_sho_fit, loop_success = False, h5_loop_group =
     h5_loop_group = h5_loop_fit.parent
     loop_success = True
     return h5_loop_fit, h5_loop_group
+
+def conventional_fit_loop_function(h5_f):
+    step_chan='DC_Offset'
+    cmap=None
+
+    h5_projected_loops = h5_f['Measurement_000']['Channel_000']['Raw_Data-SHO_Fit_000']['Guess-Loop_Fit_000']['Projected_Loops']
+    h5_loop_guess = h5_f['Measurement_000']['Channel_000']['Raw_Data-SHO_Fit_000']['Guess-Loop_Fit_000']['Guess']
+    h5_loop_fit = h5_f['Measurement_000']['Channel_000']['Raw_Data-SHO_Fit_000']['Guess-Loop_Fit_000']['Fit']
+
+    # Prepare some variables for plotting loops fits and guesses
+    # Plot the Loop Guess and Fit Results
+    proj_nd, _ = reshape_to_n_dims(h5_projected_loops)
+    guess_nd, _ = reshape_to_n_dims(h5_loop_guess)
+    fit_nd, _ = reshape_to_n_dims(h5_loop_fit)
+
+    h5_projected_loops = h5_loop_guess.parent['Projected_Loops']
+    h5_proj_spec_inds = get_auxiliary_datasets(h5_projected_loops,
+                                            aux_dset_name='Spectroscopic_Indices')[-1]
+    h5_proj_spec_vals = get_auxiliary_datasets(h5_projected_loops,
+                                            aux_dset_name='Spectroscopic_Values')[-1]
+    h5_pos_inds = get_auxiliary_datasets(h5_projected_loops,
+                                        aux_dset_name='Position_Indices')[-1]
+    pos_nd, _ = reshape_to_n_dims(h5_pos_inds, h5_pos=h5_pos_inds)
+    pos_dims = list(pos_nd.shape[:h5_pos_inds.shape[1]])
+    pos_labels = get_attr(h5_pos_inds, 'labels')
+
+
+    # reshape the vdc_vec into DC_step by Loop
+    spec_nd, _ = reshape_to_n_dims(h5_proj_spec_vals, h5_spec=h5_proj_spec_inds)
+    loop_spec_dims = np.array(spec_nd.shape[1:])
+    loop_spec_labels = get_attr(h5_proj_spec_vals, 'labels')
+
+    spec_step_dim_ind = np.where(loop_spec_labels == step_chan)[0][0]
+
+    # # move the step dimension to be the first after all position dimensions
+    rest_loop_dim_order = list(range(len(pos_dims), len(proj_nd.shape)))
+    rest_loop_dim_order.pop(spec_step_dim_ind)
+    new_order = list(range(len(pos_dims))) + [len(pos_dims) + spec_step_dim_ind] + rest_loop_dim_order
+
+    new_spec_order = np.array(new_order[len(pos_dims):], dtype=np.uint32) - len(pos_dims)
+
+    # Also reshape the projected loops to Positions-DC_Step-Loop
+    final_loop_shape = pos_dims + [loop_spec_dims[spec_step_dim_ind]] + [-1]
+    proj_nd2 = np.moveaxis(proj_nd, spec_step_dim_ind + len(pos_dims), len(pos_dims))
+    proj_nd_3 = np.reshape(proj_nd2, final_loop_shape)
+
+    # Do the same for the guess and fit datasets
+    guess_3d = np.reshape(guess_nd, pos_dims + [-1])
+    fit_3d = np.reshape(fit_nd, pos_dims + [-1])
+
+    # Get the bias vector:
+    spec_nd2 = np.moveaxis(spec_nd[spec_step_dim_ind], spec_step_dim_ind, 0)
+    bias_vec = np.reshape(spec_nd2, final_loop_shape[len(pos_dims):])
+
+    # Shift the bias vector and the loops by a quarter cycle
+    shift_ind = int(-1 * bias_vec.shape[0] / 4)
+    bias_shifted = np.roll(bias_vec, shift_ind, axis=0)
+    proj_nd_shifted = np.roll(proj_nd_3, shift_ind, axis=len(pos_dims))
+
+    return proj_nd_shifted
 
 def computeTime(model, train_dataloader, batch_size, device='cuda'):
     if device == 'cuda':
