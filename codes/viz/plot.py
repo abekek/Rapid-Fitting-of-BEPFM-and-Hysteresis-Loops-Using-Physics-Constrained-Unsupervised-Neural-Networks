@@ -12,6 +12,7 @@ import glob
 import moviepy as mpy
 from moviepy.video.io.ImageSequenceClip import ImageSequenceClip
 from ..util.postprocessing import convert_real_imag
+from ..util.core import SHO_fit_func_torch
 
 
 def make_movie(movie_name, input_folder, output_folder, file_format,
@@ -147,4 +148,75 @@ def plot_best_worst_loops(voltage, scaled_loops_DNN, scaled_loops_DNN_trust, sca
 
     plt.tight_layout()
     plt.legend(bbox_to_anchor=(1.05, 4.0), loc='upper right', borderaxespad=0.)
+    fig.subplots_adjust(top=0.87)
+
+def plot_reconstruction_comparison_SHO(name, graph_num, wvec_freq, parameters, sorted_indices, initial_graphs):
+    fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
+    fig.suptitle(name + ' reconstruction', fontsize=20)
+
+    i = graph_num
+    params = parameters[0]
+    all_pred_params = parameters[1]
+    highest_sho_lsqf = sorted_indices[0]
+    highest_sho_nn = sorted_indices[1]
+    magnitude_graph_initial = initial_graphs[0]
+    phase_graph_initial = initial_graphs[1]
+
+    out_sho_lsqf_1d = SHO_fit_func_torch(torch.tensor(np.atleast_2d(params[highest_sho_lsqf[i]])), wvec_freq)
+    magnitude_graph_lsqf, phase_graph_lsqf = convert_real_imag(out_sho_lsqf_1d)
+
+    out_sho_nn_1d = SHO_fit_func_torch(torch.tensor(np.atleast_2d(all_pred_params[highest_sho_nn[i]])), wvec_freq)
+    magnitude_graph_nn, phase_graph_nn = convert_real_imag(out_sho_nn_1d)
+
+    axs[0].set_title('LSQF')
+    axs[0].plot(wvec_freq, magnitude_graph_initial[highest_sho_lsqf[i], :], 'o', label='magnitude initial', color='b')
+    axs[0].plot(wvec_freq, magnitude_graph_lsqf[0, :], label='magnitude LSQF method', color='b')
+    ax1 = axs[0].twinx()
+    ax1.plot(wvec_freq, phase_graph_initial[highest_sho_lsqf[i], :], 'o', label='phase initial', color='r')
+    ax1.plot(wvec_freq, phase_graph_lsqf[0, :], label='phase LSQF method', color='r')
+
+    axs[1].set_title('NN')
+    axs[1].plot(wvec_freq, magnitude_graph_initial[highest_sho_nn[i], :], 'o', label='magnitude initial', color='b')
+    axs[1].plot(wvec_freq, magnitude_graph_nn[0, :], label='magnitude NN', color='b')
+    ax2 = axs[1].twinx()
+    ax2.plot(wvec_freq, phase_graph_initial[highest_sho_nn[i], :], 'o', label='phase initial', color='r')
+    ax2.plot(wvec_freq, phase_graph_nn[0, :], label='phase NN', color='r')
+
+    for ax in axs.flat:
+        ax.set(xlabel='Frequency (Hz)', ylabel='Amplitude (Arb. U.)')
+
+    for ax in axs.flat:
+        ax.label_outer()
+
+    plt.tight_layout()
+    plt.legend(bbox_to_anchor=(1.00, 1.4), loc='upper right', borderaxespad=0.)
+    fig.subplots_adjust(top=0.87)
+
+def plot_reconstruction_comparison_loops(name, graph_num, V, loops, sorted_indices):
+    fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
+    fig.suptitle(name + ' reconstruction', fontsize=20)
+
+    i = graph_num
+    real_scaled_loops = loops[0]
+    scaled_loops_DNN = loops[1]
+    scaled_loops_DNN_trust = loops[2]
+    highest_loops_adam = sorted_indices[0]
+    highest_loops_trust = sorted_indices[1]
+
+    axs[0].set_title('Adam')
+    axs[0].plot(V, real_scaled_loops[highest_loops_adam[i], :], 'o', label='LSQF method')
+    axs[0].plot(V, scaled_loops_DNN[highest_loops_adam[i], :], label='Adam')
+
+    axs[1].set_title('Trust Region CG')
+    axs[1].plot(V, real_scaled_loops[highest_loops_trust[i], :], 'o', label='LSQF method')
+    axs[1].plot(V, scaled_loops_DNN_trust[highest_loops_trust[i], :], label='Trust Region CG')
+
+    for ax in axs.flat:
+        ax.set(xlabel='Voltage (V)', ylabel='Amplitude (Arb. U.)')
+
+    for ax in axs.flat:
+        ax.label_outer()
+
+    plt.tight_layout()
+    plt.legend(bbox_to_anchor=(1.00, 1.4), loc='upper right', borderaxespad=0.)
     fig.subplots_adjust(top=0.87)
