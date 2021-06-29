@@ -204,11 +204,11 @@ def plot_reconstruction_comparison_loops(name, graph_num, V, loops, sorted_indic
     highest_loops_trust = sorted_indices[1]
 
     axs[0].set_title('Adam')
-    axs[0].plot(V, real_scaled_loops[highest_loops_adam[i], :], 'o', label='LSQF method')
-    axs[0].plot(V, scaled_loops_DNN[highest_loops_adam[i], :], label='Adam')
+    axs[0].plot(V, real_scaled_loops[highest_loops_adam[i], :], 'o', label='Real loops')
+    axs[0].plot(V, scaled_loops_DNN[highest_loops_adam[i], :], label='LSQF method')
 
     axs[1].set_title('Trust Region CG')
-    axs[1].plot(V, real_scaled_loops[highest_loops_trust[i], :], 'o', label='LSQF method')
+    axs[1].plot(V, real_scaled_loops[highest_loops_trust[i], :], 'o', label='Real loops')
     axs[1].plot(V, scaled_loops_DNN_trust[highest_loops_trust[i], :], label='Trust Region CG')
 
     for ax in axs.flat:
