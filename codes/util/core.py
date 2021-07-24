@@ -278,3 +278,34 @@ def computeTime(model, train_dataloader, batch_size, device='cuda'):
 
     time_print = (np.mean(time_spent)*1000)/batch_size
     print(f'Avg execution time (ms): {time_print:.6f}')
+
+def translate_beps(input_file_path):
+  (data_dir, filename) = os.path.split(input_file_path)
+
+  if input_file_path.endswith('.h5'):
+      # No translation here
+      h5_path = input_file_path
+      force = True # Set this to true to force patching of the datafile.
+      tl = belib.translators.LabViewH5Patcher()
+      tl.translate(h5_path, force_patch=force)
+  else:
+      # Set the data to be translated
+      data_path = input_file_path
+
+      (junk, base_name) = os.path.split(data_dir)
+
+      # Check if the data is in the new or old format.  Initialize the correct translator for the format.
+      if base_name == 'newdataformat':
+          (junk, base_name) = os.path.split(junk)
+          translator = belib.translators.BEPSndfTranslator(max_mem_mb=max_mem)
+      else:
+          translator = belib.translators.BEodfTranslator(max_mem_mb=max_mem)
+      if base_name.endswith('_d'):
+          base_name = base_name[:-2]
+      # Translate the data
+      print(translator)
+      h5_path = translator.translate(data_path, show_plots=True, save_plots=False)
+      folder_path, h5_raw_file_name = os.path.split(h5_path)
+      h5_f = h5py.File(h5_path, 'r+')
+      
+      return h5_f
