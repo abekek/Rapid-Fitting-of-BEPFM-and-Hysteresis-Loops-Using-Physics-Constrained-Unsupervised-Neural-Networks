@@ -2,6 +2,55 @@
 
 ---
 
+Alibek T. Kaliyev<sup>1,2</sup>, 
+Ryan Forelli<sup>5</sup>, 
+Pedro Sales<sup>7</sup>, 
+Shuyu Qin<sup>1</sup>, 
+Yichen Guo<sup>3</sup>, 
+Olugbodi (FJ) Oluwafolajinmi<sup>5</sup>,
+Andrew Zheng<sup>6</sup>,
+Seda Ogrenci Memik<sup>12</sup>,
+Michael W. Mahoney<sup>11</sup>, 
+Amir Gholami<sup>11</sup>, 
+Rama K. Vasudevan<sup>9</sup>, 
+Stephen Jesse<sup>9</sup>, 
+Nhan Tran<sup>10</sup>, 
+Philip Harris<sup>8</sup>, 
+Martin Takáč<sup>4</sup>, 
+Joshua C. Agar<sup>3*</sup>
+
+___
+
+<sup>1</sup> Department of Computer Science and Engineering, Lehigh University, Bethlehem, PA 18015, USA
+
+<sup>2</sup> College of Business, Lehigh University, Bethlehem, PA 18015, USA
+
+<sup>3</sup> Department of Materials Science and Engineering, Lehigh University, Bethlehem, PA 18015, USA
+
+<sup>4</sup> Department of Industrial and Systems Engineering, Lehigh University, Bethlehem, PA 18015, USA
+
+<sup>5</sup> Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA 18015, USA
+
+<sup>6</sup> Department of Mechanical Engineering & Mechanics, Lehigh University, Bethlehem, PA 18015, USA
+
+<sup>7</sup> Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA
+
+<sup>8</sup> Department of Physics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA
+
+<sup>9</sup> Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA
+
+<sup>10</sup> Fermi National Accelerator Laboratory, Batavia, IL 60510, USA
+
+<sup>11</sup> University of California, Berkeley, Berkeley, CA 94720, USA
+
+<sup>12</sup> Department of Electrical and Computer Engineering, Northwestern University, Evanston, IL 60208, USA
+
+*joshua.agar@lehigh.edu
+
+___
+
+## Abstract
+
 For nearly a decade, band-excitation piezoresponse force-based switching spectroscopy (BEPS) has been used to characterize ferroelectric switching and dynamic electromechanical responses of materials with nanoscale resolution. One of the key outputs of this technique is hyperspectral images of piezoelectric hysteresis loops, wherein there are one or more hysteresis loops at every pixel position. The challenge and dedication required to properly analyze data from these experiments have throttled the impact and widespread use of BEPS. To simplify the extraction of information from these datasets, a common approach involves fitting the piezoelectric hysteresis loops to an empirical function to parameterize the loops. This technique has several shortcomings:
 
 It is computationally intensive, requiring more than 24 hours to process a single experiment on a single workstation with parallel processing.
