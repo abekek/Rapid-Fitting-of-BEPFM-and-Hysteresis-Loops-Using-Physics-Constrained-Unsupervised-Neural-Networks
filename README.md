@@ -45,7 +45,7 @@ ___
 
 <sup>12</sup> Department of Electrical and Computer Engineering, Northwestern University, Evanston, IL 60208, USA
 
-*joshua.agar@lehigh.edu
+*Address correspondence to: joshua.agar@lehigh.edu
 
 ___
 
