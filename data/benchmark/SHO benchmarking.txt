@@ -1,0 +1,1311 @@
+Tesla P100-PCIE
+
+MANUAL SEED: 1
+epoch : 1/5, recon loss = 0.19824356
+--- 176.31795620918274 seconds ---
+epoch : 2/5, recon loss = 0.05126342
+--- 176.83487939834595 seconds ---
+epoch : 3/5, recon loss = 0.04590669
+--- 176.97831058502197 seconds ---
+epoch : 4/5, recon loss = 0.04433626
+--- 176.72111105918884 seconds ---
+epoch : 5/5, recon loss = 0.04429551
+--- 176.6690068244934 seconds ---
+Training with batch size=64 took 883.5216403007507 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.041337
+Reconstruction error: 0.043817050755023956
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.1268401
+MSE of Amplitude: 0.010875796
+MSE of Resonance: 0.380307
+MSE of Quality-Factor: 0.09306163
+MSE of Phase: 0.024493506
+------------------------------
+
+epoch : 1/5, recon loss = 0.09218097
+--- 90.59508085250854 seconds ---
+epoch : 2/5, recon loss = 0.05053300
+--- 90.12964725494385 seconds ---
+epoch : 3/5, recon loss = 0.04801361
+--- 90.20370221138 seconds ---
+epoch : 4/5, recon loss = 0.04673935
+--- 90.31244421005249 seconds ---
+epoch : 5/5, recon loss = 0.04587830
+--- 90.36507320404053 seconds ---
+Training with batch size=128 took 451.60624861717224 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.021583
+Reconstruction error: 0.04546844959259033
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.40165198
+MSE of Amplitude: 0.014647204
+MSE of Resonance: 0.4214412
+MSE of Quality-Factor: 0.10185819
+MSE of Phase: 1.0708605
+------------------------------
+
+epoch : 1/5, recon loss = 0.07925536
+--- 65.2801342010498 seconds ---
+epoch : 2/5, recon loss = 0.04653355
+--- 64.94383931159973 seconds ---
+epoch : 3/5, recon loss = 0.04532363
+--- 65.00126624107361 seconds ---
+epoch : 4/5, recon loss = 0.04471332
+--- 64.9804093837738 seconds ---
+epoch : 5/5, recon loss = 0.04429446
+--- 64.93895697593689 seconds ---
+Training with batch size=256 took 325.14516854286194 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.010993
+Reconstruction error: 0.0440647229552269
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.11427343
+MSE of Amplitude: 0.0114318505
+MSE of Resonance: 0.34102145
+MSE of Quality-Factor: 0.08045041
+MSE of Phase: 0.02555334
+------------------------------
+
+epoch : 1/5, recon loss = 0.09154909
+--- 58.75419569015503 seconds ---
+epoch : 2/5, recon loss = 0.05107428
+--- 58.357566118240356 seconds ---
+epoch : 3/5, recon loss = 0.04858394
+--- 58.39435601234436 seconds ---
+epoch : 4/5, recon loss = 0.04727565
+--- 58.31425404548645 seconds ---
+epoch : 5/5, recon loss = 0.04646081
+--- 58.395004987716675 seconds ---
+Training with batch size=512 took 292.2156271934509 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.005300
+Reconstruction error: 0.04608484357595444
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.14514577
+MSE of Amplitude: 0.014113396
+MSE of Resonance: 0.43121383
+MSE of Quality-Factor: 0.0865876
+MSE of Phase: 0.050644193
+------------------------------
+
+epoch : 1/5, recon loss = 0.14940073
+--- 63.2682363986969 seconds ---
+epoch : 2/5, recon loss = 0.05438200
+--- 63.12536358833313 seconds ---
+epoch : 3/5, recon loss = 0.05049922
+--- 63.08144998550415 seconds ---
+epoch : 4/5, recon loss = 0.04881347
+--- 63.11110067367554 seconds ---
+epoch : 5/5, recon loss = 0.04780080
+--- 63.123753786087036 seconds ---
+Training with batch size=1024 took 315.71020317077637 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.002712
+Reconstruction error: 0.0473489984869957
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.12811351
+MSE of Amplitude: 0.016003288
+MSE of Resonance: 0.34861535
+MSE of Quality-Factor: 0.121918224
+MSE of Phase: 0.027476838
+------------------------------
+
+MANUAL SEED: 2
+epoch : 1/5, recon loss = 0.62330714
+--- 180.63338017463684 seconds ---
+epoch : 2/5, recon loss = 0.61544973
+--- 180.30125832557678 seconds ---
+epoch : 3/5, recon loss = 0.61423680
+--- 180.7402958869934 seconds ---
+epoch : 4/5, recon loss = 0.61359205
+--- 180.64271521568298 seconds ---
+epoch : 5/5, recon loss = 0.61318762
+--- 182.01124501228333 seconds ---
+Training with batch size=64 took 904.3302702903748 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.044039
+Reconstruction error: 0.6109228134155273
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 92.966675
+MSE of Amplitude: 359.8913
+MSE of Resonance: 7.489257
+MSE of Quality-Factor: 4.4791756
+MSE of Phase: 0.03561486
+------------------------------
+
+epoch : 1/5, recon loss = 0.62895815
+--- 93.25241136550903 seconds ---
+epoch : 2/5, recon loss = 0.61871503
+--- 93.08224940299988 seconds ---
+epoch : 3/5, recon loss = 0.61722520
+--- 93.03342819213867 seconds ---
+epoch : 4/5, recon loss = 0.61632948
+--- 92.85505771636963 seconds ---
+epoch : 5/5, recon loss = 0.61571968
+--- 92.98604345321655 seconds ---
+Training with batch size=128 took 465.209520816803 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.022091
+Reconstruction error: 0.6133406162261963
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 33.004982
+MSE of Amplitude: 108.00322
+MSE of Resonance: 19.515806
+MSE of Quality-Factor: 4.4612937
+MSE of Phase: 0.0578235
+------------------------------
+
+epoch : 1/5, recon loss = 0.08242914
+--- 65.36522364616394 seconds ---
+epoch : 2/5, recon loss = 0.04926461
+--- 65.33527421951294 seconds ---
+epoch : 3/5, recon loss = 0.04730551
+--- 65.33404874801636 seconds ---
+epoch : 4/5, recon loss = 0.04624613
+--- 65.28008198738098 seconds ---
+epoch : 5/5, recon loss = 0.04553878
+--- 65.29665040969849 seconds ---
+Training with batch size=256 took 326.6115267276764 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.011100
+Reconstruction error: 0.045204706490039825
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.43370134
+MSE of Amplitude: 0.015230546
+MSE of Resonance: 0.5677718
+MSE of Quality-Factor: 0.08580029
+MSE of Phase: 1.0684417
+------------------------------
+
+epoch : 1/5, recon loss = 0.09882536
+--- 58.54071044921875 seconds ---
+epoch : 2/5, recon loss = 0.05055540
+--- 58.54562950134277 seconds ---
+epoch : 3/5, recon loss = 0.04774158
+--- 58.73436689376831 seconds ---
+epoch : 4/5, recon loss = 0.04651858
+--- 58.75320267677307 seconds ---
+epoch : 5/5, recon loss = 0.04577753
+--- 58.56189799308777 seconds ---
+Training with batch size=512 took 293.13712882995605 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.005419
+Reconstruction error: 0.045417819172143936
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.120589145
+MSE of Amplitude: 0.016785778
+MSE of Resonance: 0.35874394
+MSE of Quality-Factor: 0.08498941
+MSE of Phase: 0.023285856
+------------------------------
+
+epoch : 1/5, recon loss = 0.12232821
+--- 63.18512988090515 seconds ---
+epoch : 2/5, recon loss = 0.05191063
+--- 63.15359950065613 seconds ---
+epoch : 3/5, recon loss = 0.04859709
+--- 63.093013048172 seconds ---
+epoch : 4/5, recon loss = 0.04724146
+--- 63.11520004272461 seconds ---
+epoch : 5/5, recon loss = 0.04642220
+--- 63.145970582962036 seconds ---
+Training with batch size=1024 took 315.6932272911072 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.002596
+Reconstruction error: 0.04603409767150879
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.13445449
+MSE of Amplitude: 0.01579599
+MSE of Resonance: 0.40668833
+MSE of Quality-Factor: 0.09391146
+MSE of Phase: 0.022980435
+------------------------------
+
+MANUAL SEED: 3
+epoch : 1/5, recon loss = 0.18596352
+--- 180.9067358970642 seconds ---
+epoch : 2/5, recon loss = 0.05523688
+--- 182.35435128211975 seconds ---
+epoch : 3/5, recon loss = 0.05118089
+--- 183.18084073066711 seconds ---
+epoch : 4/5, recon loss = 0.04953553
+--- 181.86492228507996 seconds ---
+epoch : 5/5, recon loss = 0.04851474
+--- 181.37482595443726 seconds ---
+Training with batch size=64 took 909.6827924251556 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.041264
+Reconstruction error: 0.04800494760274887
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.14937875
+MSE of Amplitude: 0.019567572
+MSE of Resonance: 0.4078327
+MSE of Quality-Factor: 0.13326024
+MSE of Phase: 0.03878535
+------------------------------
+
+epoch : 1/5, recon loss = 0.07907198
+--- 91.95640206336975 seconds ---
+epoch : 2/5, recon loss = 0.04645207
+--- 91.44734787940979 seconds ---
+epoch : 3/5, recon loss = 0.04526331
+--- 91.74670124053955 seconds ---
+epoch : 4/5, recon loss = 0.04470670
+--- 91.9850025177002 seconds ---
+epoch : 5/5, recon loss = 0.04433825
+--- 92.03502535820007 seconds ---
+Training with batch size=128 took 459.1708369255066 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.021538
+Reconstruction error: 0.04411572217941284
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.3986739
+MSE of Amplitude: 0.011977067
+MSE of Resonance: 0.43157673
+MSE of Quality-Factor: 0.077829406
+MSE of Phase: 1.0750824
+------------------------------
+
+epoch : 1/5, recon loss = 0.07267440
+--- 65.16055679321289 seconds ---
+epoch : 2/5, recon loss = 0.04699650
+--- 65.07757544517517 seconds ---
+epoch : 3/5, recon loss = 0.04547234
+--- 65.13913464546204 seconds ---
+epoch : 4/5, recon loss = 0.04478785
+--- 65.27819585800171 seconds ---
+epoch : 5/5, recon loss = 0.04440360
+--- 65.55900716781616 seconds ---
+Training with batch size=256 took 326.21562147140503 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.010867
+Reconstruction error: 0.04419650882482529
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.129213
+MSE of Amplitude: 0.011805145
+MSE of Resonance: 0.40434313
+MSE of Quality-Factor: 0.07813338
+MSE of Phase: 0.024033988
+------------------------------
+
+epoch : 1/5, recon loss = 0.09279318
+--- 58.45260715484619 seconds ---
+epoch : 2/5, recon loss = 0.05129748
+--- 58.53893065452576 seconds ---
+epoch : 3/5, recon loss = 0.04858581
+--- 58.46950054168701 seconds ---
+epoch : 4/5, recon loss = 0.04717973
+--- 58.45073747634888 seconds ---
+epoch : 5/5, recon loss = 0.04631621
+--- 58.36993980407715 seconds ---
+Training with batch size=512 took 292.2819571495056 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.005787
+Reconstruction error: 0.04590657353401184
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.1388266
+MSE of Amplitude: 0.015902651
+MSE of Resonance: 0.41119105
+MSE of Quality-Factor: 0.106876075
+MSE of Phase: 0.022975437
+------------------------------
+
+epoch : 1/5, recon loss = 0.23966794
+--- 63.48573708534241 seconds ---
+epoch : 2/5, recon loss = 0.08755442
+--- 63.50016760826111 seconds ---
+epoch : 3/5, recon loss = 0.06870067
+--- 63.49283170700073 seconds ---
+epoch : 4/5, recon loss = 0.06105214
+--- 63.45280909538269 seconds ---
+epoch : 5/5, recon loss = 0.05722726
+--- 63.546345710754395 seconds ---
+Training with batch size=1024 took 317.47820949554443 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.002618
+Reconstruction error: 0.05591582879424095
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.63764346
+MSE of Amplitude: 0.042755146
+MSE of Resonance: 0.36813807
+MSE of Quality-Factor: 0.12013749
+MSE of Phase: 2.0208263
+------------------------------
+
+MANUAL SEED: 4
+epoch : 1/5, recon loss = 0.05545558
+--- 179.57267689704895 seconds ---
+epoch : 2/5, recon loss = 0.04470785
+--- 180.25807285308838 seconds ---
+epoch : 3/5, recon loss = 0.04396248
+--- 180.7357885837555 seconds ---
+epoch : 4/5, recon loss = 0.04364240
+--- 179.76707816123962 seconds ---
+epoch : 5/5, recon loss = 0.04344260
+--- 178.35617184638977 seconds ---
+Training with batch size=64 took 898.6909999847412 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.042204
+Reconstruction error: 0.0433330163359642
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.117687754
+MSE of Amplitude: 0.010367792
+MSE of Resonance: 0.34172344
+MSE of Quality-Factor: 0.07232838
+MSE of Phase: 0.047693063
+------------------------------
+
+epoch : 1/5, recon loss = 2.76952204
+--- 90.6286997795105 seconds ---
+epoch : 2/5, recon loss = 0.64285271
+--- 90.75135159492493 seconds ---
+epoch : 3/5, recon loss = 0.63812558
+--- 91.07753252983093 seconds ---
+epoch : 4/5, recon loss = 0.63503483
+--- 90.79867100715637 seconds ---
+epoch : 5/5, recon loss = 0.63214037
+--- 91.62572383880615 seconds ---
+Training with batch size=128 took 454.8822832107544 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.021782
+Reconstruction error: 0.6280733346939087
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 70.3081
+MSE of Amplitude: 15.53862
+MSE of Resonance: 243.89255
+MSE of Quality-Factor: 4.593512
+MSE of Phase: 17.279264
+------------------------------
+
+epoch : 1/5, recon loss = 1.18285622
+--- 65.71856927871704 seconds ---
+epoch : 2/5, recon loss = 0.46488846
+--- 65.4490339756012 seconds ---
+epoch : 3/5, recon loss = 0.41621522
+--- 65.4271445274353 seconds ---
+epoch : 4/5, recon loss = 0.20709461
+--- 65.38692426681519 seconds ---
+epoch : 5/5, recon loss = 0.06246625
+--- 65.32200717926025 seconds ---
+Training with batch size=256 took 327.303918838501 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.010515
+Reconstruction error: 0.05541665107011795
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.14578663
+MSE of Amplitude: 0.045555275
+MSE of Resonance: 0.28813013
+MSE of Quality-Factor: 0.214341
+MSE of Phase: 0.03644624
+------------------------------
+
+epoch : 1/5, recon loss = 0.49947040
+--- 58.52838110923767 seconds ---
+epoch : 2/5, recon loss = 0.10538928
+--- 58.478837728500366 seconds ---
+epoch : 3/5, recon loss = 0.06538588
+--- 58.51585912704468 seconds ---
+epoch : 4/5, recon loss = 0.05773661
+--- 58.56472206115723 seconds ---
+epoch : 5/5, recon loss = 0.05376228
+--- 58.426451444625854 seconds ---
+Training with batch size=512 took 292.51457381248474 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.005447
+Reconstruction error: 0.05229664966464043
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.37642974
+MSE of Amplitude: 0.029419245
+MSE of Resonance: 0.43014956
+MSE of Quality-Factor: 0.101503365
+MSE of Phase: 0.94703984
+------------------------------
+
+epoch : 1/5, recon loss = 0.13821850
+--- 63.18780159950256 seconds ---
+epoch : 2/5, recon loss = 0.06660783
+--- 63.17114853858948 seconds ---
+epoch : 3/5, recon loss = 0.05908085
+--- 63.27530789375305 seconds ---
+epoch : 4/5, recon loss = 0.05637682
+--- 63.296324491500854 seconds ---
+epoch : 5/5, recon loss = 0.05443219
+--- 63.16199445724487 seconds ---
+Training with batch size=1024 took 316.0928375720978 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.002714
+Reconstruction error: 0.053274549543857574
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.24733332
+MSE of Amplitude: 0.03346641
+MSE of Resonance: 0.41002104
+MSE of Quality-Factor: 0.0748351
+MSE of Phase: 0.47370344
+------------------------------
+
+MANUAL SEED: 5
+epoch : 1/5, recon loss = 0.07452526
+--- 181.3785581588745 seconds ---
+epoch : 2/5, recon loss = 0.04661695
+--- 181.16846919059753 seconds ---
+epoch : 3/5, recon loss = 0.04519419
+--- 181.64709663391113 seconds ---
+epoch : 4/5, recon loss = 0.04447999
+--- 181.7159674167633 seconds ---
+epoch : 5/5, recon loss = 0.04409226
+--- 180.54568696022034 seconds ---
+Training with batch size=64 took 906.4561367034912 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.042836
+Reconstruction error: 0.0438716746866703
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.12969251
+MSE of Amplitude: 0.011063602
+MSE of Resonance: 0.34696227
+MSE of Quality-Factor: 0.11477329
+MSE of Phase: 0.04746088
+------------------------------
+
+epoch : 1/5, recon loss = 0.07092902
+--- 91.65211820602417 seconds ---
+epoch : 2/5, recon loss = 0.04747011
+--- 91.8343620300293 seconds ---
+epoch : 3/5, recon loss = 0.04598838
+--- 93.89266610145569 seconds ---
+epoch : 4/5, recon loss = 0.04524789
+--- 92.15561509132385 seconds ---
+epoch : 5/5, recon loss = 0.04479035
+--- 92.57201552391052 seconds ---
+Training with batch size=128 took 462.1071183681488 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.021324
+Reconstruction error: 0.044576629996299744
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.35395312
+MSE of Amplitude: 0.0118462015
+MSE of Resonance: 0.19698022
+MSE of Quality-Factor: 0.12749654
+MSE of Phase: 1.0804706
+------------------------------
+
+epoch : 1/5, recon loss = 0.63780165
+--- 65.20882534980774 seconds ---
+epoch : 2/5, recon loss = 0.62612554
+--- 65.321613073349 seconds ---
+epoch : 3/5, recon loss = 0.62408916
+--- 65.366623878479 seconds ---
+epoch : 4/5, recon loss = 0.62273843
+--- 65.34217095375061 seconds ---
+epoch : 5/5, recon loss = 0.62173278
+--- 65.38918876647949 seconds ---
+Training with batch size=256 took 326.628693819046 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.010696
+Reconstruction error: 0.6192506551742554
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 11.475763
+MSE of Amplitude: 31.190882
+MSE of Resonance: 0.86770916
+MSE of Quality-Factor: 4.4201565
+MSE of Phase: 9.441431
+------------------------------
+
+epoch : 1/5, recon loss = 0.08814987
+--- 58.538487911224365 seconds ---
+epoch : 2/5, recon loss = 0.04979603
+--- 58.53690314292908 seconds ---
+epoch : 3/5, recon loss = 0.04772541
+--- 58.56916284561157 seconds ---
+epoch : 4/5, recon loss = 0.04661337
+--- 58.61860108375549 seconds ---
+epoch : 5/5, recon loss = 0.04595291
+--- 58.54584741592407 seconds ---
+Training with batch size=512 took 292.80935502052307 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.005440
+Reconstruction error: 0.04564230889081955
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.39692873
+MSE of Amplitude: 0.014020485
+MSE of Resonance: 0.4104376
+MSE of Quality-Factor: 0.09394078
+MSE of Phase: 1.0713918
+------------------------------
+
+epoch : 1/5, recon loss = 0.10716849
+--- 63.23693299293518 seconds ---
+epoch : 2/5, recon loss = 0.05154232
+--- 63.283947706222534 seconds ---
+epoch : 3/5, recon loss = 0.04970132
+--- 63.25909876823425 seconds ---
+epoch : 4/5, recon loss = 0.04877369
+--- 63.48277568817139 seconds ---
+epoch : 5/5, recon loss = 0.04810835
+--- 63.67050766944885 seconds ---
+Training with batch size=1024 took 316.9335718154907 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.002850
+Reconstruction error: 0.047728750854730606
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.40179527
+MSE of Amplitude: 0.01792697
+MSE of Resonance: 0.41819263
+MSE of Quality-Factor: 0.10036898
+MSE of Phase: 1.0732266
+------------------------------
+
+MANUAL SEED: 6
+epoch : 1/5, recon loss = 0.05157909
+--- 116.86575102806091 seconds ---
+epoch : 2/5, recon loss = 0.04436714
+--- 116.66781091690063 seconds ---
+epoch : 3/5, recon loss = 0.04371696
+--- 116.20198512077332 seconds ---
+epoch : 4/5, recon loss = 0.04339623
+--- 116.10271835327148 seconds ---
+epoch : 5/5, recon loss = 0.04319540
+--- 116.60680389404297 seconds ---
+Training with batch size=64 took 582.4452385902405 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.026285
+Reconstruction error: 0.043063223361968994
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.13144782
+MSE of Amplitude: 0.009782932
+MSE of Resonance: 0.39561966
+MSE of Quality-Factor: 0.09850674
+MSE of Phase: 0.023212299
+------------------------------
+
+epoch : 1/5, recon loss = 0.19961580
+--- 76.95144033432007 seconds ---
+epoch : 2/5, recon loss = 0.10264087
+--- 76.48350882530212 seconds ---
+epoch : 3/5, recon loss = 0.08611980
+--- 76.53332567214966 seconds ---
+epoch : 4/5, recon loss = 0.07631048
+--- 76.50295233726501 seconds ---
+epoch : 5/5, recon loss = 0.06897332
+--- 76.46828818321228 seconds ---
+Training with batch size=128 took 382.93966937065125 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.012539
+Reconstruction error: 0.06616935133934021
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.43193293
+MSE of Amplitude: 0.075534455
+MSE of Resonance: 0.317046
+MSE of Quality-Factor: 0.22016989
+MSE of Phase: 1.1170149
+------------------------------
+
+epoch : 1/5, recon loss = 0.06352064
+--- 60.26303768157959 seconds ---
+epoch : 2/5, recon loss = 0.04655746
+--- 59.89596223831177 seconds ---
+epoch : 3/5, recon loss = 0.04517636
+--- 60.080323696136475 seconds ---
+epoch : 4/5, recon loss = 0.04457029
+--- 60.5029501914978 seconds ---
+epoch : 5/5, recon loss = 0.04419190
+--- 60.42312240600586 seconds ---
+Training with batch size=256 took 301.16593503952026 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.006318
+Reconstruction error: 0.04397928714752197
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.14409056
+MSE of Amplitude: 0.012302263
+MSE of Resonance: 0.4367631
+MSE of Quality-Factor: 0.105655946
+MSE of Phase: 0.023173016
+------------------------------
+
+epoch : 1/5, recon loss = 0.19320004
+--- 56.331499099731445 seconds ---
+epoch : 2/5, recon loss = 0.09743385
+--- 55.87834620475769 seconds ---
+epoch : 3/5, recon loss = 0.07304998
+--- 55.83038783073425 seconds ---
+epoch : 4/5, recon loss = 0.06053497
+--- 55.91354942321777 seconds ---
+epoch : 5/5, recon loss = 0.05578849
+--- 55.86929798126221 seconds ---
+Training with batch size=512 took 279.8232901096344 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.003311
+Reconstruction error: 0.05415714904665947
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.14998427
+MSE of Amplitude: 0.03769578
+MSE of Resonance: 0.3117696
+MSE of Quality-Factor: 0.21327564
+MSE of Phase: 0.038665105
+------------------------------
+
+epoch : 1/5, recon loss = 0.30587497
+--- 62.37922143936157 seconds ---
+epoch : 2/5, recon loss = 0.06868693
+--- 62.51048278808594 seconds ---
+epoch : 3/5, recon loss = 0.06390019
+--- 62.20301079750061 seconds ---
+epoch : 4/5, recon loss = 0.06130625
+--- 62.19441747665405 seconds ---
+epoch : 5/5, recon loss = 0.05944365
+--- 62.23582935333252 seconds ---
+Training with batch size=1024 took 311.5236723423004 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.001570
+Reconstruction error: 0.05855491757392883
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.43094087
+MSE of Amplitude: 0.046851013
+MSE of Resonance: 0.5414119
+MSE of Quality-Factor: 0.23774348
+MSE of Phase: 0.901307
+------------------------------
+
+MANUAL SEED: 7
+epoch : 1/5, recon loss = 0.05304614
+--- 116.59047532081604 seconds ---
+epoch : 2/5, recon loss = 0.04427555
+--- 116.56095170974731 seconds ---
+epoch : 3/5, recon loss = 0.04359715
+--- 116.55412936210632 seconds ---
+epoch : 4/5, recon loss = 0.04327416
+--- 116.75457572937012 seconds ---
+epoch : 5/5, recon loss = 0.04306497
+--- 116.70678305625916 seconds ---
+Training with batch size=64 took 583.167085647583 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.025743
+Reconstruction error: 0.04291260987520218
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.118112765
+MSE of Amplitude: 0.008566056
+MSE of Resonance: 0.3681809
+MSE of Quality-Factor: 0.072340935
+MSE of Phase: 0.024587259
+------------------------------
+
+epoch : 1/5, recon loss = 0.06253408
+--- 76.31105208396912 seconds ---
+epoch : 2/5, recon loss = 0.04586102
+--- 76.43967080116272 seconds ---
+epoch : 3/5, recon loss = 0.04476445
+--- 76.46816325187683 seconds ---
+epoch : 4/5, recon loss = 0.04422904
+--- 76.47967410087585 seconds ---
+epoch : 5/5, recon loss = 0.04389801
+--- 76.43406653404236 seconds ---
+Training with batch size=128 took 382.1334502696991 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.012357
+Reconstruction error: 0.043709367513656616
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.100065246
+MSE of Amplitude: 0.010572281
+MSE of Resonance: 0.29177123
+MSE of Quality-Factor: 0.07645203
+MSE of Phase: 0.022664623
+------------------------------
+
+epoch : 1/5, recon loss = 0.07373118
+--- 59.75718355178833 seconds ---
+epoch : 2/5, recon loss = 0.04763881
+--- 59.77107286453247 seconds ---
+epoch : 3/5, recon loss = 0.04566176
+--- 59.835654973983765 seconds ---
+epoch : 4/5, recon loss = 0.04482118
+--- 59.78830814361572 seconds ---
+epoch : 5/5, recon loss = 0.04436638
+--- 59.849363565444946 seconds ---
+Training with batch size=256 took 299.00174927711487 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.006392
+Reconstruction error: 0.04413965344429016
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.11302855
+MSE of Amplitude: 0.011307728
+MSE of Resonance: 0.3195787
+MSE of Quality-Factor: 0.09573032
+MSE of Phase: 0.026837995
+------------------------------
+
+epoch : 1/5, recon loss = 0.09814559
+--- 55.850988149642944 seconds ---
+epoch : 2/5, recon loss = 0.05567503
+--- 55.83181571960449 seconds ---
+epoch : 3/5, recon loss = 0.05175413
+--- 55.84343767166138 seconds ---
+epoch : 4/5, recon loss = 0.04983134
+--- 55.84760284423828 seconds ---
+epoch : 5/5, recon loss = 0.04868589
+--- 55.834553718566895 seconds ---
+Training with batch size=512 took 279.2086248397827 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.003218
+Reconstruction error: 0.04817505180835724
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.13924973
+MSE of Amplitude: 0.017847182
+MSE of Resonance: 0.40683568
+MSE of Quality-Factor: 0.106838934
+MSE of Phase: 0.027245738
+------------------------------
+
+epoch : 1/5, recon loss = 0.14573600
+--- 62.13473868370056 seconds ---
+epoch : 2/5, recon loss = 0.06392094
+--- 62.15992331504822 seconds ---
+epoch : 3/5, recon loss = 0.05485410
+--- 62.183741331100464 seconds ---
+epoch : 4/5, recon loss = 0.05139311
+--- 62.203566789627075 seconds ---
+epoch : 5/5, recon loss = 0.04980570
+--- 62.31489396095276 seconds ---
+Training with batch size=1024 took 310.9970691204071 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.001603
+Reconstruction error: 0.0492129847407341
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.13210844
+MSE of Amplitude: 0.020825429
+MSE of Resonance: 0.37341905
+MSE of Quality-Factor: 0.11195091
+MSE of Phase: 0.023761187
+------------------------------
+
+MANUAL SEED: 8
+epoch : 1/5, recon loss = 1.79732775
+--- 116.33573746681213 seconds ---
+epoch : 2/5, recon loss = 0.10382906
+--- 116.56649541854858 seconds ---
+epoch : 3/5, recon loss = 0.04933320
+--- 116.17928290367126 seconds ---
+epoch : 4/5, recon loss = 0.04476539
+--- 116.42749810218811 seconds ---
+epoch : 5/5, recon loss = 0.04388377
+--- 116.69249391555786 seconds ---
+Training with batch size=64 took 582.2016673088074 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.024827
+Reconstruction error: 0.04359472543001175
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.12031281
+MSE of Amplitude: 0.010901426
+MSE of Resonance: 0.31867537
+MSE of Quality-Factor: 0.10346172
+MSE of Phase: 0.049584154
+------------------------------
+
+epoch : 1/5, recon loss = 0.06845056
+--- 76.61565327644348 seconds ---
+epoch : 2/5, recon loss = 0.04687552
+--- 76.90863633155823 seconds ---
+epoch : 3/5, recon loss = 0.04562114
+--- 76.87961387634277 seconds ---
+epoch : 4/5, recon loss = 0.04489497
+--- 76.89727759361267 seconds ---
+epoch : 5/5, recon loss = 0.04443293
+--- 77.02885627746582 seconds ---
+Training with batch size=128 took 384.3302125930786 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.012687
+Reconstruction error: 0.04417381435632706
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.32983804
+MSE of Amplitude: 0.012509726
+MSE of Resonance: 0.34609738
+MSE of Quality-Factor: 0.07707571
+MSE of Phase: 0.8853653
+------------------------------
+
+epoch : 1/5, recon loss = 0.06631044
+--- 60.1404128074646 seconds ---
+epoch : 2/5, recon loss = 0.04644889
+--- 60.82538342475891 seconds ---
+epoch : 3/5, recon loss = 0.04509768
+--- 60.233201026916504 seconds ---
+epoch : 4/5, recon loss = 0.04453022
+--- 60.203914642333984 seconds ---
+epoch : 5/5, recon loss = 0.04419445
+--- 60.231409549713135 seconds ---
+Training with batch size=256 took 301.6344804763794 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.006306
+Reconstruction error: 0.043998654931783676
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.12750848
+MSE of Amplitude: 0.012326695
+MSE of Resonance: 0.37300298
+MSE of Quality-Factor: 0.079064764
+MSE of Phase: 0.047160827
+------------------------------
+
+epoch : 1/5, recon loss = 0.09008493
+--- 56.151244163513184 seconds ---
+epoch : 2/5, recon loss = 0.04836888
+--- 56.181029081344604 seconds ---
+epoch : 3/5, recon loss = 0.04628438
+--- 56.186864376068115 seconds ---
+epoch : 4/5, recon loss = 0.04534142
+--- 56.12027907371521 seconds ---
+epoch : 5/5, recon loss = 0.04478477
+--- 56.13233017921448 seconds ---
+Training with batch size=512 took 280.77294874191284 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.003131
+Reconstruction error: 0.044508032500743866
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.13283442
+MSE of Amplitude: 0.012988516
+MSE of Resonance: 0.39126036
+MSE of Quality-Factor: 0.08040922
+MSE of Phase: 0.048299
+------------------------------
+
+epoch : 1/5, recon loss = 0.22780321
+--- 62.50627017021179 seconds ---
+epoch : 2/5, recon loss = 0.10200823
+--- 62.53376364707947 seconds ---
+epoch : 3/5, recon loss = 0.07487776
+--- 62.4703950881958 seconds ---
+epoch : 4/5, recon loss = 0.06507180
+--- 62.52224898338318 seconds ---
+epoch : 5/5, recon loss = 0.06050397
+--- 62.52168297767639 seconds ---
+Training with batch size=1024 took 312.55453276634216 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.001561
+Reconstruction error: 0.05888982117176056
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.41683078
+MSE of Amplitude: 0.047544923
+MSE of Resonance: 0.53021264
+MSE of Quality-Factor: 0.18281442
+MSE of Phase: 0.90999985
+------------------------------
+
+MANUAL SEED: 9
+epoch : 1/5, recon loss = 0.05776142
+--- 117.14881348609924 seconds ---
+epoch : 2/5, recon loss = 0.04562331
+--- 117.78274345397949 seconds ---
+epoch : 3/5, recon loss = 0.04460316
+--- 117.7035915851593 seconds ---
+epoch : 4/5, recon loss = 0.04410132
+--- 117.57478404045105 seconds ---
+epoch : 5/5, recon loss = 0.04379822
+--- 117.7295036315918 seconds ---
+Training with batch size=64 took 587.9404394626617 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.025235
+Reconstruction error: 0.04363400116562843
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.15459001
+MSE of Amplitude: 0.010997082
+MSE of Resonance: 0.49514025
+MSE of Quality-Factor: 0.0751252
+MSE of Phase: 0.038908992
+------------------------------
+
+epoch : 1/5, recon loss = 0.08174168
+--- 76.91544771194458 seconds ---
+epoch : 2/5, recon loss = 0.04843791
+--- 77.03261947631836 seconds ---
+epoch : 3/5, recon loss = 0.04650649
+--- 76.96691679954529 seconds ---
+epoch : 4/5, recon loss = 0.04562574
+--- 77.045982837677 seconds ---
+epoch : 5/5, recon loss = 0.04510319
+--- 76.98844528198242 seconds ---
+Training with batch size=128 took 384.9495701789856 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.013184
+Reconstruction error: 0.04486813396215439
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.37800533
+MSE of Amplitude: 0.013710942
+MSE of Resonance: 0.3511069
+MSE of Quality-Factor: 0.0756009
+MSE of Phase: 1.0733603
+------------------------------
+
+epoch : 1/5, recon loss = 0.06987576
+--- 60.18402647972107 seconds ---
+epoch : 2/5, recon loss = 0.04812209
+--- 60.153260231018066 seconds ---
+epoch : 3/5, recon loss = 0.04606932
+--- 60.16136407852173 seconds ---
+epoch : 4/5, recon loss = 0.04512002
+--- 60.1929669380188 seconds ---
+epoch : 5/5, recon loss = 0.04461594
+--- 60.35514974594116 seconds ---
+Training with batch size=256 took 301.0469591617584 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.006227
+Reconstruction error: 0.044379137456417084
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.11792459
+MSE of Amplitude: 0.012976791
+MSE of Resonance: 0.34515166
+MSE of Quality-Factor: 0.091641404
+MSE of Phase: 0.023262272
+------------------------------
+
+epoch : 1/5, recon loss = 0.10029947
+--- 56.17849922180176 seconds ---
+epoch : 2/5, recon loss = 0.05414189
+--- 56.08568000793457 seconds ---
+epoch : 3/5, recon loss = 0.05054962
+--- 56.1152765750885 seconds ---
+epoch : 4/5, recon loss = 0.04877183
+--- 56.14055323600769 seconds ---
+epoch : 5/5, recon loss = 0.04768293
+--- 56.18848776817322 seconds ---
+Training with batch size=512 took 280.70894622802734 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.003272
+Reconstruction error: 0.047211647033691406
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.16417113
+MSE of Amplitude: 0.019663425
+MSE of Resonance: 0.43431377
+MSE of Quality-Factor: 0.14666644
+MSE of Phase: 0.05814086
+------------------------------
+
+epoch : 1/5, recon loss = 0.13271100
+--- 62.40941262245178 seconds ---
+epoch : 2/5, recon loss = 0.05549291
+--- 62.4620246887207 seconds ---
+epoch : 3/5, recon loss = 0.05172264
+--- 62.4344539642334 seconds ---
+epoch : 4/5, recon loss = 0.04963722
+--- 62.53113341331482 seconds ---
+epoch : 5/5, recon loss = 0.04835634
+--- 62.50842905044556 seconds ---
+Training with batch size=1024 took 312.3464915752411 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.001612
+Reconstruction error: 0.04778800159692764
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.1635632
+MSE of Amplitude: 0.018776463
+MSE of Resonance: 0.44897324
+MSE of Quality-Factor: 0.16557768
+MSE of Phase: 0.023030095
+------------------------------
+
+MANUAL SEED: 10
+epoch : 1/5, recon loss = 0.05629393
+--- 119.55746936798096 seconds ---
+epoch : 2/5, recon loss = 0.04487628
+--- 119.06123399734497 seconds ---
+epoch : 3/5, recon loss = 0.04397521
+--- 120.41861820220947 seconds ---
+epoch : 4/5, recon loss = 0.04359149
+--- 119.77437996864319 seconds ---
+epoch : 5/5, recon loss = 0.04336541
+--- 118.59917378425598 seconds ---
+Training with batch size=64 took 597.4110572338104 seconds
+
+Inference time with batch size=64
+Avg execution time (ms): 0.025376
+Reconstruction error: 0.04319315776228905
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.13052954
+MSE of Amplitude: 0.01010937
+MSE of Resonance: 0.38933462
+MSE of Quality-Factor: 0.07862519
+MSE of Phase: 0.04548427
+------------------------------
+
+epoch : 1/5, recon loss = 1.70258406
+--- 77.7786910533905 seconds ---
+epoch : 2/5, recon loss = 0.95722231
+--- 78.00551414489746 seconds ---
+epoch : 3/5, recon loss = 0.89849233
+--- 77.38016247749329 seconds ---
+epoch : 4/5, recon loss = 0.82518997
+--- 77.9027349948883 seconds ---
+epoch : 5/5, recon loss = 0.65312675
+--- 77.96439862251282 seconds ---
+Training with batch size=128 took 389.03210520744324 seconds
+
+Inference time with batch size=128
+Avg execution time (ms): 0.012767
+Reconstruction error: 0.5445166826248169
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 4684.8506
+MSE of Amplitude: 1.2519503
+MSE of Resonance: 15626.954
+MSE of Quality-Factor: 2373.1667
+MSE of Phase: 743.5519
+------------------------------
+
+epoch : 1/5, recon loss = 0.08156585
+--- 60.58404183387756 seconds ---
+epoch : 2/5, recon loss = 0.04979934
+--- 60.41754412651062 seconds ---
+epoch : 3/5, recon loss = 0.04723408
+--- 60.96550536155701 seconds ---
+epoch : 4/5, recon loss = 0.04613698
+--- 60.899107694625854 seconds ---
+epoch : 5/5, recon loss = 0.04549770
+--- 61.03255605697632 seconds ---
+Training with batch size=256 took 303.90028047561646 seconds
+
+Inference time with batch size=256
+Avg execution time (ms): 0.006288
+Reconstruction error: 0.04519174247980118
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.6241892
+MSE of Amplitude: 0.015451756
+MSE of Resonance: 0.37814182
+MSE of Quality-Factor: 0.11019963
+MSE of Phase: 1.9881823
+------------------------------
+
+epoch : 1/5, recon loss = 0.08962578
+--- 56.04368448257446 seconds ---
+epoch : 2/5, recon loss = 0.04917996
+--- 56.18423891067505 seconds ---
+epoch : 3/5, recon loss = 0.04732454
+--- 56.621278047561646 seconds ---
+epoch : 4/5, recon loss = 0.04641304
+--- 56.36583995819092 seconds ---
+epoch : 5/5, recon loss = 0.04582981
+--- 56.52501368522644 seconds ---
+Training with batch size=512 took 281.7402648925781 seconds
+
+Inference time with batch size=512
+Avg execution time (ms): 0.003260
+Reconstruction error: 0.04553552344441414
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.39832997
+MSE of Amplitude: 0.013861167
+MSE of Resonance: 0.4133598
+MSE of Quality-Factor: 0.09785975
+MSE of Phase: 1.0704018
+------------------------------
+
+epoch : 1/5, recon loss = 0.11285143
+--- 62.623223543167114 seconds ---
+epoch : 2/5, recon loss = 0.05530094
+--- 62.839518308639526 seconds ---
+epoch : 3/5, recon loss = 0.05116274
+--- 62.90364170074463 seconds ---
+epoch : 4/5, recon loss = 0.04919411
+--- 62.96902871131897 seconds ---
+epoch : 5/5, recon loss = 0.04795703
+--- 62.76370692253113 seconds ---
+Training with batch size=1024 took 314.09929609298706 seconds
+
+Inference time with batch size=1024
+Avg execution time (ms): 0.001557
+Reconstruction error: 0.04741827771067619
+torch.Size([967680, 4])
+(967680, 4)
+
+Results
+Total MSE: 0.17797913
+MSE of Amplitude: 0.017942004
+MSE of Resonance: 0.5275277
+MSE of Quality-Factor: 0.1451943
+MSE of Phase: 0.023501616
+------------------------------

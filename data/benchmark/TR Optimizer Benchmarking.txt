@@ -1,0 +1,706 @@
+MANUAL SEED: 1
+Traning with batch size = 64
+Training time: 304.4229190349579 seconds
+Number of epochs: 7
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 6.710165076785617e-05 seconds
+Adam Inference time: 9.526722961001927e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005040611662702834
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010059155523777008
+Params Predictions MSE (scaled): tf.Tensor(0.7271089553833008, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.6384358406066895, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 314.1929214000702 seconds
+Number of epochs: 16
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 9.546670648786757e-05 seconds
+Adam Inference time: 9.687410460578071e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004840885142977205
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01505514606833458
+Params Predictions MSE (scaled): tf.Tensor(0.4508245587348938, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.751654028892517, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 306.646324634552 seconds
+Number of epochs: 29
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.909039285447862e-05 seconds
+Adam Inference time: 6.765610641903347e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004113682539954204
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01430745329707861
+Params Predictions MSE (scaled): tf.Tensor(0.6103235483169556, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.930375099182129, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 303.3032500743866 seconds
+Number of epochs: 51
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 7.342411412133111e-05 seconds
+Adam Inference time: 6.835473908318414e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.003973385220841172
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01114311721175909
+Params Predictions MSE (scaled): tf.Tensor(0.5336027145385742, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.272195339202881, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 304.9174928665161 seconds
+Number of epochs: 96
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.510106510586209e-05 seconds
+Adam Inference time: 9.479357136620416e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0038082416541801024
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012979647144675255
+Params Predictions MSE (scaled): tf.Tensor(0.42249640822410583, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.9876983165740967, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 2
+Traning with batch size = 64
+Training time: 313.49057817459106 seconds
+Number of epochs: 8
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 6.867792871263293e-05 seconds
+Adam Inference time: 9.495509995354547e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004952878587330908
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010805906727910042
+Params Predictions MSE (scaled): tf.Tensor(0.48572149872779846, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.21846079826355, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 312.1662516593933 seconds
+Number of epochs: 16
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 6.645964251624214e-05 seconds
+Adam Inference time: 6.5867371029324e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0047692158292655705
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.0113630760461092
+Params Predictions MSE (scaled): tf.Tensor(0.5627619624137878, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.3808045387268066, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 301.4717216491699 seconds
+Number of epochs: 28
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.642176045311822e-05 seconds
+Adam Inference time: 9.503046671549479e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0040513012583058405
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01097356341779232
+Params Predictions MSE (scaled): tf.Tensor(0.4895264208316803, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.848618984222412, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 301.3842976093292 seconds
+Number of epochs: 52
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 9.545240137312147e-05 seconds
+Adam Inference time: 9.65195894241333e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.003999120433404578
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014721459709107876
+Params Predictions MSE (scaled): tf.Tensor(0.5919301509857178, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.776778221130371, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.5583322048187 seconds
+Number of epochs: 113
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.451356199052598e-05 seconds
+Adam Inference time: 6.500462690989176e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0041872222378729045
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012913377955555916
+Params Predictions MSE (scaled): tf.Tensor(0.5635526776313782, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.5563607215881348, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 3
+Traning with batch size = 64
+Training time: 313.3049852848053 seconds
+Number of epochs: 8
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 9.481271107991537e-05 seconds
+Adam Inference time: 9.48953628540039e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004371639131735771
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010452347807586193
+Params Predictions MSE (scaled): tf.Tensor(0.6062370538711548, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.2860989570617676, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 302.1562297344208 seconds
+Number of epochs: 17
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 6.936828295389811e-05 seconds
+Adam Inference time: 6.756630208757189e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005109162015456113
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014921726658940315
+Params Predictions MSE (scaled): tf.Tensor(0.7203628420829773, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.158010721206665, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 309.03153681755066 seconds
+Number of epochs: 27
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.942735777960883e-05 seconds
+Adam Inference time: 9.50651036368476e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.003930744728398635
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01463968027383089
+Params Predictions MSE (scaled): tf.Tensor(0.445547878742218, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.8350276947021484, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 301.028936624527 seconds
+Number of epochs: 57
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 6.726549731360542e-05 seconds
+Adam Inference time: 9.669138325585259e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004266819857990175
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.016631942242383957
+Params Predictions MSE (scaled): tf.Tensor(0.5260884761810303, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.9571986198425293, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 301.75334072113037 seconds
+Number of epochs: 107
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.507305092281766e-05 seconds
+Adam Inference time: 6.651639938354492e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0038592839974283524
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01811313070356846
+Params Predictions MSE (scaled): tf.Tensor(0.4768398702144623, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.075187921524048, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 4
+Traning with batch size = 64
+Training time: 321.2419788837433 seconds
+Number of epochs: 9
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 6.840977403852674e-05 seconds
+Adam Inference time: 9.571366839938694e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005462762605146128
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010783053934574127
+Params Predictions MSE (scaled): tf.Tensor(0.6619425415992737, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.649101734161377, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 308.5930757522583 seconds
+Number of epochs: 16
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 6.771485010782877e-05 seconds
+Adam Inference time: 6.589028570387098e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004356332498605669
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.011886455118656158
+Params Predictions MSE (scaled): tf.Tensor(0.5230215787887573, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.6724634170532227, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 308.02740836143494 seconds
+Number of epochs: 29
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.660845544603136e-05 seconds
+Adam Inference time: 9.503662586212158e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004117984791708088
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.024008169770240784
+Params Predictions MSE (scaled): tf.Tensor(0.6500985622406006, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(3.2065978050231934, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 301.7485101222992 seconds
+Number of epochs: 62
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 9.495370917850071e-05 seconds
+Adam Inference time: 6.888475683000352e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004458183818744534
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.013485556468367577
+Params Predictions MSE (scaled): tf.Tensor(0.5949036478996277, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.4527835845947266, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 305.80599427223206 seconds
+Number of epochs: 103
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 6.815883848402235e-05 seconds
+Adam Inference time: 6.73875543806288e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0037594814094656635
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.009284988045692444
+Params Predictions MSE (scaled): tf.Tensor(0.42590034008026123, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.8587746620178223, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 5
+Traning with batch size = 64
+Training time: 321.5457887649536 seconds
+Number of epochs: 9
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 6.892859935760498e-05 seconds
+Adam Inference time: 9.509755505455864e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0048878993473589726
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.009798170067369938
+Params Predictions MSE (scaled): tf.Tensor(0.7598336935043335, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(3.2969157695770264, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 314.9803023338318 seconds
+Number of epochs: 19
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 6.77780310312907e-05 seconds
+Adam Inference time: 9.526663356357151e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0051106780080356715
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012359258718788624
+Params Predictions MSE (scaled): tf.Tensor(0.6627658009529114, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.5793638229370117, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 306.2189111709595 seconds
+Number of epochs: 37
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.904350386725532e-05 seconds
+Adam Inference time: 6.785167588127984e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005799984193499692
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012023826129734516
+Params Predictions MSE (scaled): tf.Tensor(0.6147077679634094, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.3671951293945312, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 307.48900389671326 seconds
+Number of epochs: 54
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 9.424130121866861e-05 seconds
+Adam Inference time: 9.570538997650147e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0038952014760532277
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014360344037413597
+Params Predictions MSE (scaled): tf.Tensor(0.5051457285881042, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.3075742721557617, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 304.69928073883057 seconds
+Number of epochs: 127
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 6.779750188191732e-05 seconds
+Adam Inference time: 6.814161936442057e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0044613074366081935
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012467962689697742
+Params Predictions MSE (scaled): tf.Tensor(0.4212387800216675, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.8990612030029297, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 6
+Traning with batch size = 64
+Training time: 307.317391872406 seconds
+Number of epochs: 8
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 9.454025162590875e-05 seconds
+Adam Inference time: 6.94099399778578e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004630745560594265
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.015086760744452477
+Params Predictions MSE (scaled): tf.Tensor(0.511540412902832, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.194382667541504, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 311.4982943534851 seconds
+Number of epochs: 18
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 9.560664494832357e-05 seconds
+Adam Inference time: 9.523351987202962e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004971002201518867
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012560123577713966
+Params Predictions MSE (scaled): tf.Tensor(0.6159575581550598, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.3475656509399414, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 302.46625781059265 seconds
+Number of epochs: 25
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.867653793758816e-05 seconds
+Adam Inference time: 9.692192077636718e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004404489787615652
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.015850765630602837
+Params Predictions MSE (scaled): tf.Tensor(0.4251384139060974, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.0376486778259277, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.06794118881226 seconds
+Number of epochs: 48
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 7.030347983042399e-05 seconds
+Adam Inference time: 9.574976232316758e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.00418627710261323
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012769686989486217
+Params Predictions MSE (scaled): tf.Tensor(0.47359853982925415, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.1403160095214844, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 302.1637842655182 seconds
+Number of epochs: 138
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.559618102179633e-05 seconds
+Adam Inference time: 6.702383359273275e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004441587962388653
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010833038948476315
+Params Predictions MSE (scaled): tf.Tensor(0.5209637880325317, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.7951555252075195, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 7
+Traning with batch size = 64
+Training time: 330.77659916877747 seconds
+Number of epochs: 9
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 6.565617190466987e-05 seconds
+Adam Inference time: 9.506112999386257e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005210402848825613
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.01167902909219265
+Params Predictions MSE (scaled): tf.Tensor(0.8146393895149231, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.7863709926605225, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 307.41193318367004 seconds
+Number of epochs: 16
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 6.790227360195584e-05 seconds
+Adam Inference time: 7.044586870405409e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004849782316400662
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.012926043011248112
+Params Predictions MSE (scaled): tf.Tensor(0.6209533214569092, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.284548044204712, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 302.57093691825867 seconds
+Number of epochs: 28
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 9.473555617862278e-05 seconds
+Adam Inference time: 7.0445802476671e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0042892415839590565
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014251349493861198
+Params Predictions MSE (scaled): tf.Tensor(0.4651139974594116, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.0020530223846436, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.81494641304016 seconds
+Number of epochs: 51
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 6.777260038587781e-05 seconds
+Adam Inference time: 6.610380278693305e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.003716261023009297
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010638229548931122
+Params Predictions MSE (scaled): tf.Tensor(0.4324749708175659, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.6960731744766235, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 302.70525074005127 seconds
+Number of epochs: 106
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 6.785326533847385e-05 seconds
+Adam Inference time: 9.44792562060886e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0037390017279309465
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.010160696692764759
+Params Predictions MSE (scaled): tf.Tensor(0.5049062967300415, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.813331961631775, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 8
+Traning with batch size = 64
+Training time: 332.46765780448914 seconds
+Number of epochs: 9
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 9.517735905117459e-05 seconds
+Adam Inference time: 9.662621551089817e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005083447786829163
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.013103540055453777
+Params Predictions MSE (scaled): tf.Tensor(0.7285880446434021, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.8084604740142822, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 304.24033546447754 seconds
+Number of epochs: 16
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 9.862528906928168e-05 seconds
+Adam Inference time: 9.49810610877143e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004380795782656507
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.017400264739990234
+Params Predictions MSE (scaled): tf.Tensor(0.5721874833106995, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.581434726715088, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 307.26579904556274 seconds
+Number of epochs: 35
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 9.499066405826145e-05 seconds
+Adam Inference time: 6.647725900014241e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.00486844021389476
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014065586030483246
+Params Predictions MSE (scaled): tf.Tensor(0.7860870957374573, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(3.2863800525665283, shape=(), dtype=float64)
+-----------------------------
+
+Traning with batch size = 512
+Training time: 306.6370630264282 seconds
+Number of epochs: 57
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 9.619017442067464e-05 seconds
+Adam Inference time: 9.557783603668213e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004189858343910465
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014051482081413269
+Params Predictions MSE (scaled): tf.Tensor(0.6612780094146729, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.7959277629852295, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 304.43231868743896 seconds
+Number of epochs: 97
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.463197655147976e-05 seconds
+Adam Inference time: 9.499523374769422e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0035564714389563117
+MSE of hysteresis loops with LSQF: 0.008416066490643165
+Adam Reconstruction MSE: 0.014292057603597641
+Params Predictions MSE (scaled): tf.Tensor(0.4366571605205536, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.9207775592803955, shape=(), dtype=float64)
+-----------------------------
+
+MANUAL SEED: 9
+Traning with batch size = 64
+Training time: 326.69265842437744 seconds
+Number of epochs: 9
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 6.564451588524713e-05 seconds
+Adam Inference time: 9.494688775804307e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.005398969201054389
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.017673274502158165
+Params Predictions MSE (scaled): tf.Tensor(0.6830449104309082, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.3884546756744385, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 318.10376048088074 seconds
+Number of epochs: 15
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 9.481350580851237e-05 seconds
+Adam Inference time: 9.461853239271376e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004111095633887535
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.013578874059021473
+Params Predictions MSE (scaled): tf.Tensor(0.5272481441497803, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.3375916481018066, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 306.88377356529236 seconds
+Number of epochs: 29
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.559696462419298e-05 seconds
+Adam Inference time: 6.656726201375325e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004103595920914205
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.009896645322442055
+Params Predictions MSE (scaled): tf.Tensor(0.6142799258232117, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.357056140899658, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 305.04489827156067 seconds
+Number of epochs: 63
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 9.456952412923176e-05 seconds
+Adam Inference time: 6.626751687791613e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004389639941292618
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.01603853702545166
+Params Predictions MSE (scaled): tf.Tensor(0.7726337313652039, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.6187520027160645, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 303.6442677974701 seconds
+Number of epochs: 108
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.523948033650716e-05 seconds
+Adam Inference time: 6.467488076951769e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0038814263450492772
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.011128590442240238
+Params Predictions MSE (scaled): tf.Tensor(0.4872352182865143, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.151737928390503, shape=(), dtype=float64)
+-----------------------------
+
+
+MANUAL SEED: 10
+Traning with batch size = 64
+Training time: 313.8427360057831 seconds
+Number of epochs: 9
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs64/assets
+Trust Region Inference time: 9.624600410461426e-05 seconds
+Adam Inference time: 9.474886788262262e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.006233044532921986
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.009515413083136082
+Params Predictions MSE (scaled): tf.Tensor(0.8639565706253052, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(3.734093189239502, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 314.43668031692505 seconds
+Number of epochs: 17
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs128/assets
+Trust Region Inference time: 9.64359442392985e-05 seconds
+Adam Inference time: 9.452952278984917e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.0045371815228792516
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.014583582989871502
+Params Predictions MSE (scaled): tf.Tensor(0.5535010099411011, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.8156057596206665, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 302.34251379966736 seconds
+Number of epochs: 30
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs256/assets
+Trust Region Inference time: 6.646010610792371e-05 seconds
+Adam Inference time: 9.437382221221923e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.004638537134459594
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.011107869446277618
+Params Predictions MSE (scaled): tf.Tensor(0.49717894196510315, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.1780333518981934, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 301.7392988204956 seconds
+Number of epochs: 47
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs512/assets
+Trust Region Inference time: 6.661123699612088e-05 seconds
+Adam Inference time: 9.620308876037598e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.003731098055337274
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.01574772596359253
+Params Predictions MSE (scaled): tf.Tensor(0.5001608729362488, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(1.8464099168777466, shape=(), dtype=float64)
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 304.7229781150818 seconds
+Number of epochs: 109
+INFO:tensorflow:Assets written to: /content/drive/MyDrive/Pre-trained-Deep-Learning-Models-For-Rapid-Analysis-Of-Piezoelectric-Hysteresis-Loops-SHO-Fitting/Benchmarking/Trained Models/Loops/model_bs1024/assets
+Trust Region Inference time: 9.417083528306749e-05 seconds
+Adam Inference time: 9.59883795844184e-05 seconds
+MSE of hysteresis loops with Trust Region CG: 0.003645371534479106
+MSE of hysteresis loops with LSQF: 0.008488220453739382
+Adam Reconstruction MSE: 0.011721043847501278
+Params Predictions MSE (scaled): tf.Tensor(0.5012620687484741, shape=(), dtype=float64)
+Params Predictions MSE (unscaled): tf.Tensor(2.2386586666107178, shape=(), dtype=float64)
+-----------------------------

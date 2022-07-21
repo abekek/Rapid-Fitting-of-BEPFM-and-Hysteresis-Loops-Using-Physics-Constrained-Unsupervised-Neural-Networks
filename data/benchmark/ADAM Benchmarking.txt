@@ -1,0 +1,457 @@
+MANUAL SEED: 1
+Traning with batch size = 64
+Training time: 300.206490278244 seconds
+Number of epochs: 661
+Adam Inference time: 1.0699762238396539e-05 seconds
+MSE of hysteresis loops with Adam: 0.008321923265600316
+Params Predictions MSE (scaled): 3.760738378902632
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.18834233283997 seconds
+Number of epochs: 1203
+Adam Inference time: 9.433229764302571e-06 seconds
+MSE of hysteresis loops with Adam: 0.008370994016606669
+Params Predictions MSE (scaled): 4.012633682071819
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.0315053462982 seconds
+Number of epochs: 1852
+Adam Inference time: 9.191234906514487e-06 seconds
+MSE of hysteresis loops with Adam: 0.008857888376612397
+Params Predictions MSE (scaled): 4.078696302953071
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.04617857933044 seconds
+Number of epochs: 2836
+Adam Inference time: 8.58392980363634e-06 seconds
+MSE of hysteresis loops with Adam: 0.009773949240466885
+Params Predictions MSE (scaled): 2.9931063137938425
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.04588556289673 seconds
+Number of epochs: 3645
+Adam Inference time: 1.1125273174709744e-05 seconds
+MSE of hysteresis loops with Adam: 0.011142249862426477
+Params Predictions MSE (scaled): 4.858556310152179
+-----------------------------
+
+
+MANUAL SEED: 2
+Traning with batch size = 64
+Training time: 300.12485551834106 seconds
+Number of epochs: 656
+Adam Inference time: 1.0718173450893827e-05 seconds
+MSE of hysteresis loops with Adam: 0.007352500083035881
+Params Predictions MSE (scaled): 3.4509282946320776
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.062442779541 seconds
+Number of epochs: 1182
+Adam Inference time: 8.659495247734918e-06 seconds
+MSE of hysteresis loops with Adam: 0.007241133530701857
+Params Predictions MSE (scaled): 3.6779962610471184
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.08488726615906 seconds
+Number of epochs: 1861
+Adam Inference time: 1.1023283004760742e-05 seconds
+MSE of hysteresis loops with Adam: 0.006650062108718462
+Params Predictions MSE (scaled): 3.9327927463884373
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.01103830337524 seconds
+Number of epochs: 2852
+Adam Inference time: 8.974671363830566e-06 seconds
+MSE of hysteresis loops with Adam: 0.009228338546656297
+Params Predictions MSE (scaled): 3.97425115649021
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.04808259010315 seconds
+Number of epochs: 3684
+Adam Inference time: 9.947485393948025e-06 seconds
+MSE of hysteresis loops with Adam: 0.009881204161193207
+Params Predictions MSE (scaled): 3.7645875643141675
+-----------------------------
+
+
+MANUAL SEED: 3
+Traning with batch size = 64
+Training time: 300.24818897247314 seconds
+Number of epochs: 668
+Adam Inference time: 1.0865132013956705e-05 seconds
+MSE of hysteresis loops with Adam: 0.007177638643473411
+Params Predictions MSE (scaled): 3.708656550645914
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.20060420036316 seconds
+Number of epochs: 1192
+Adam Inference time: 8.742544386121961e-06 seconds
+MSE of hysteresis loops with Adam: 0.007810938561946233
+Params Predictions MSE (scaled): 4.563072468098579
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.05012226104736 seconds
+Number of epochs: 1859
+Adam Inference time: 8.434322145250108e-06 seconds
+MSE of hysteresis loops with Adam: 0.006677117660947686
+Params Predictions MSE (scaled): 1.9561428682053479
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.00679993629456 seconds
+Number of epochs: 2844
+Adam Inference time: 8.96877712673611e-06 seconds
+MSE of hysteresis loops with Adam: 0.011517763645062587
+Params Predictions MSE (scaled): 2.70434274920223
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.03680777549744 seconds
+Number of epochs: 3621
+Adam Inference time: 1.070433192782932e-05 seconds
+MSE of hysteresis loops with Adam: 0.011054373005856467
+Params Predictions MSE (scaled): 3.2618316904918845
+-----------------------------
+
+
+MANUAL SEED: 4
+Traning with batch size = 64
+Training time: 300.1500196456909 seconds
+Number of epochs: 658
+Adam Inference time: 9.196268187628853e-06 seconds
+MSE of hysteresis loops with Adam: 0.007582158385270964
+Params Predictions MSE (scaled): 0.950585995957963
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.13095712661743 seconds
+Number of epochs: 1194
+Adam Inference time: 8.489290873209636e-06 seconds
+MSE of hysteresis loops with Adam: 0.006583634364626803
+Params Predictions MSE (scaled): 2.493988528617666
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.1439435482025 seconds
+Number of epochs: 1879
+Adam Inference time: 8.275243971082899e-06 seconds
+MSE of hysteresis loops with Adam: 0.0077101704263135016
+Params Predictions MSE (scaled): 3.871957525562
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.08306670188904 seconds
+Number of epochs: 2849
+Adam Inference time: 9.195804595947266e-06 seconds
+MSE of hysteresis loops with Adam: 0.007507553586542734
+Params Predictions MSE (scaled): 1.3148589396793922
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.05049538612366 seconds
+Number of epochs: 3581
+Adam Inference time: 1.0724465052286784e-05 seconds
+MSE of hysteresis loops with Adam: 0.00764267772354555
+Params Predictions MSE (scaled): 2.5080209633167345
+-----------------------------
+
+
+MANUAL SEED: 5
+Traning with batch size = 64
+Training time: 300.28883695602417 seconds
+Number of epochs: 643
+Adam Inference time: 1.1720524893866645e-05 seconds
+MSE of hysteresis loops with Adam: 0.008420037279058415
+Params Predictions MSE (scaled): 3.269898815242692
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.0688223838806 seconds
+Number of epochs: 1193
+Adam Inference time: 9.01202360788981e-06 seconds
+MSE of hysteresis loops with Adam: 0.008193014741009016
+Params Predictions MSE (scaled): 3.2219851257206433
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.0831849575043 seconds
+Number of epochs: 1849
+Adam Inference time: 8.615387810601128e-06 seconds
+MSE of hysteresis loops with Adam: 0.008121499737068917
+Params Predictions MSE (scaled): 3.448600513448473
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.0521252155304 seconds
+Number of epochs: 2847
+Adam Inference time: 9.476476245456271e-06 seconds
+MSE of hysteresis loops with Adam: 0.01137030632152801
+Params Predictions MSE (scaled): 3.8767330395917554
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.0373501777649 seconds
+Number of epochs: 3646
+Adam Inference time: 1.0405646430121528e-05 seconds
+MSE of hysteresis loops with Adam: 0.009934918625757917
+Params Predictions MSE (scaled): 3.0535783043287115
+-----------------------------
+
+MANUAL SEED: 6
+Traning with batch size = 64
+Training time: 300.2880172729492 seconds
+Number of epochs: 421
+Adam Inference time: 2.8631422254774305e-05 seconds
+MSE of hysteresis loops with Adam: 0.009529551345412
+Params Predictions MSE (scaled): 3.58426317469991
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.0953586101532 seconds
+Number of epochs: 774
+Adam Inference time: 2.762913703918457e-05 seconds
+MSE of hysteresis loops with Adam: 0.008362431159634047
+Params Predictions MSE (scaled): 4.862179046832121
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.19708228111267 seconds
+Number of epochs: 1145
+Adam Inference time: 2.7513040436638727e-05 seconds
+MSE of hysteresis loops with Adam: 0.00932901170226059
+Params Predictions MSE (scaled): 3.9246694110417915
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.21442794799805 seconds
+Number of epochs: 1372
+Adam Inference time: 3.207531240251329e-05 seconds
+MSE of hysteresis loops with Adam: 0.014641404277132201
+Params Predictions MSE (scaled): 7.7724731249138586
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.0343780517578 seconds
+Number of epochs: 1566
+Adam Inference time: 3.071731991238064e-05 seconds
+MSE of hysteresis loops with Adam: 0.015709025433906496
+Params Predictions MSE (scaled): 6.9459537222803345
+-----------------------------
+
+
+MANUAL SEED: 7
+Traning with batch size = 64
+Training time: 300.14800548553467 seconds
+Number of epochs: 431
+Adam Inference time: 2.756039301554362e-05 seconds
+MSE of hysteresis loops with Adam: 0.009634459143021638
+Params Predictions MSE (scaled): 5.21164763289726
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.3205134868622 seconds
+Number of epochs: 776
+Adam Inference time: 2.7393831147087946e-05 seconds
+MSE of hysteresis loops with Adam: 0.009144988977520287
+Params Predictions MSE (scaled): 3.7984110330259764
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.112286567688 seconds
+Number of epochs: 1143
+Adam Inference time: 2.735243903266059e-05 seconds
+MSE of hysteresis loops with Adam: 0.010737553512214388
+Params Predictions MSE (scaled): 4.3098724467138965
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.14561772346497 seconds
+Number of epochs: 1367
+Adam Inference time: 2.8912292586432564e-05 seconds
+MSE of hysteresis loops with Adam: 0.014376316834071735
+Params Predictions MSE (scaled): 5.676634053057167
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.17839074134827 seconds
+Number of epochs: 1571
+Adam Inference time: 3.036903010474311e-05 seconds
+MSE of hysteresis loops with Adam: 0.016330919964098054
+Params Predictions MSE (scaled): 7.465616587231044
+-----------------------------
+
+
+MANUAL SEED: 8
+Traning with batch size = 64
+Training time: 300.3079650402069 seconds
+Number of epochs: 430
+Adam Inference time: 2.711441781785753e-05 seconds
+MSE of hysteresis loops with Adam: 0.007485006710333785
+Params Predictions MSE (scaled): 1.9051859473799422
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.17128586769104 seconds
+Number of epochs: 770
+Adam Inference time: 2.6191737916734482e-05 seconds
+MSE of hysteresis loops with Adam: 0.008745214310757095
+Params Predictions MSE (scaled): 2.478546028735392
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.23650646209717 seconds
+Number of epochs: 1147
+Adam Inference time: 2.724117702907986e-05 seconds
+MSE of hysteresis loops with Adam: 0.009386746274168859
+Params Predictions MSE (scaled): 3.157911594314893
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.14418292045593 seconds
+Number of epochs: 1343
+Adam Inference time: 2.8244985474480522e-05 seconds
+MSE of hysteresis loops with Adam: 0.011903707983137987
+Params Predictions MSE (scaled): 5.531741022121649
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.1472969055176 seconds
+Number of epochs: 1560
+Adam Inference time: 2.991583612230089e-05 seconds
+MSE of hysteresis loops with Adam: 0.012612986428026635
+Params Predictions MSE (scaled): 5.666002080306171
+-----------------------------
+
+
+MANUAL SEED: 9
+Traning with batch size = 64
+Training time: 300.10361433029175 seconds
+Number of epochs: 429
+Adam Inference time: 2.828677495320638e-05 seconds
+MSE of hysteresis loops with Adam: 0.009476854320792589
+Params Predictions MSE (scaled): 4.531856496918404
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.2715075016022 seconds
+Number of epochs: 773
+Adam Inference time: 8.519543541802301e-05 seconds
+MSE of hysteresis loops with Adam: 0.009261487291431418
+Params Predictions MSE (scaled): 2.481144252983899
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.1403601169586 seconds
+Number of epochs: 1138
+Adam Inference time: 2.742946147918701e-05 seconds
+MSE of hysteresis loops with Adam: 0.010313086612856919
+Params Predictions MSE (scaled): 4.248423697919283
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.1190769672394 seconds
+Number of epochs: 1352
+Adam Inference time: 2.881858083936903e-05 seconds
+MSE of hysteresis loops with Adam: 0.01532832369347232
+Params Predictions MSE (scaled): 4.697049829622286
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.1113998889923 seconds
+Number of epochs: 1526
+Adam Inference time: 3.0823416180080835e-05 seconds
+MSE of hysteresis loops with Adam: 0.015193507321527697
+Params Predictions MSE (scaled): 5.326862119606317
+-----------------------------
+
+
+MANUAL SEED: 10
+Traning with batch size = 64
+Training time: 300.4195489883423 seconds
+Number of epochs: 417
+Adam Inference time: 2.797318829430474e-05 seconds
+MSE of hysteresis loops with Adam: 0.007871367983697709
+Params Predictions MSE (scaled): 2.522060131553106
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.30540204048157 seconds
+Number of epochs: 758
+Adam Inference time: 2.7438799540201824e-05 seconds
+MSE of hysteresis loops with Adam: 0.008978876476420601
+Params Predictions MSE (scaled): 2.6002236106297394
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.198956489563 seconds
+Number of epochs: 1110
+Adam Inference time: 3.037836816575792e-05 seconds
+MSE of hysteresis loops with Adam: 0.009599860855680023
+Params Predictions MSE (scaled): 3.2557622230026664
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.00157594680786 seconds
+Number of epochs: 1313
+Adam Inference time: 2.8195778528849285e-05 seconds
+MSE of hysteresis loops with Adam: 0.016541339205266348
+Params Predictions MSE (scaled): 3.8896657323960824
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.0420968532562 seconds
+Number of epochs: 1539
+Adam Inference time: 3.0399229791429308e-05 seconds
+MSE of hysteresis loops with Adam: 0.012083492218815222
+Params Predictions MSE (scaled): 3.6516755544636053
+-----------------------------

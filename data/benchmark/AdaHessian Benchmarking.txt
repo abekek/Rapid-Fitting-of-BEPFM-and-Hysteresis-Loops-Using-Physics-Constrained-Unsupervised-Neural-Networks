@@ -1,0 +1,457 @@
+MANUAL SEED: 1
+Traning with batch size = 64
+Training time: 300.97305059432983 seconds
+Number of epochs: 291
+AdaHessian Inference time: 2.73466772503323e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.008844062603998105
+Params Predictions MSE (scaled): 2.2891822453787594
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.28836488723755 seconds
+Number of epochs: 500
+AdaHessian Inference time: 2.705713113149007e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.00830918030546393
+Params Predictions MSE (scaled): 3.7343431755715377
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.30453062057495 seconds
+Number of epochs: 646
+AdaHessian Inference time: 2.705494562784831e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.016364683883533404
+Params Predictions MSE (scaled): 4.28528565866607
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.1886947154999 seconds
+Number of epochs: 728
+AdaHessian Inference time: 3.027757008870443e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.02199405175929492
+Params Predictions MSE (scaled): 7.773558768793437
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.19938945770264 seconds
+Number of epochs: 388
+AdaHessian Inference time: 2.9001434644063314e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.0525145361559057
+Params Predictions MSE (scaled): 1.8124596696132709
+-----------------------------
+
+
+MANUAL SEED: 2
+Traning with batch size = 64
+Training time: 300.3297197818756 seconds
+Number of epochs: 292
+AdaHessian Inference time: 2.739283773634169e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.008102317643995174
+Params Predictions MSE (scaled): 1.263313609277475
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.14248847961426 seconds
+Number of epochs: 499
+AdaHessian Inference time: 2.7068257331848144e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.007703649476929018
+Params Predictions MSE (scaled): 3.078107297338284
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.0773570537567 seconds
+Number of epochs: 648
+AdaHessian Inference time: 2.750396728515625e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.013783308417896732
+Params Predictions MSE (scaled): 8.29319592210983
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.20868372917175 seconds
+Number of epochs: 725
+AdaHessian Inference time: 2.75727113087972e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.010540649763846848
+Params Predictions MSE (scaled): 3.77921738736786
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.5907242298126 seconds
+Number of epochs: 387
+AdaHessian Inference time: 2.9279059833950466e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.013473913540583936
+Params Predictions MSE (scaled): 3.097311185594404
+-----------------------------
+
+
+MANUAL SEED: 3
+Traning with batch size = 64
+Training time: 300.89047837257385 seconds
+Number of epochs: 293
+AdaHessian Inference time: 2.7419328689575194e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009716627957294723
+Params Predictions MSE (scaled): 2.512452150261623
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.2453942298889 seconds
+Number of epochs: 499
+AdaHessian Inference time: 2.752767668830024e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009771981922078364
+Params Predictions MSE (scaled): 3.1136758246653
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.0499608516693 seconds
+Number of epochs: 646
+AdaHessian Inference time: 2.738687727186415e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.008910804676602038
+Params Predictions MSE (scaled): 3.624197135533375
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.26681184768677 seconds
+Number of epochs: 727
+AdaHessian Inference time: 2.7740531497531467e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009511615221069006
+Params Predictions MSE (scaled): 4.183143496043364
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.67817306518555 seconds
+Number of epochs: 386
+AdaHessian Inference time: 2.9368135664198134e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.014959150089132981
+Params Predictions MSE (scaled): 6.054021208766774
+-----------------------------
+
+
+MANUAL SEED: 4
+Traning with batch size = 64
+Training time: 300.0011441707611 seconds
+Number of epochs: 289
+AdaHessian Inference time: 2.7310715781317817e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.015212339404041727
+Params Predictions MSE (scaled): 7.205147482093768
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.2547323703766 seconds
+Number of epochs: 499
+AdaHessian Inference time: 2.7243826124403213e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.011526863590142005
+Params Predictions MSE (scaled): 4.930949163696708
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.0959470272064 seconds
+Number of epochs: 644
+AdaHessian Inference time: 2.750078837076823e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.014500664889378706
+Params Predictions MSE (scaled): 4.221944360690509
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.0374381542206 seconds
+Number of epochs: 731
+AdaHessian Inference time: 2.811676926083035e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009905509420401332
+Params Predictions MSE (scaled): 2.8000556338255533
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.22299122810364 seconds
+Number of epochs: 386
+AdaHessian Inference time: 2.912282943725586e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.01812297970206363
+Params Predictions MSE (scaled): 6.477686151505585
+-----------------------------
+
+
+MANUAL SEED: 5
+Traning with batch size = 64
+Training time: 300.7616722583771 seconds
+Number of epochs: 292
+AdaHessian Inference time: 2.7354955673217773e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.02508088623961371
+Params Predictions MSE (scaled): 6.580979636149824
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.49145317077637 seconds
+Number of epochs: 498
+AdaHessian Inference time: 2.785536977979872e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.008605337244472279
+Params Predictions MSE (scaled): 4.395795699568936
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.2667531967163 seconds
+Number of epochs: 645
+AdaHessian Inference time: 2.709070841471354e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.01761520352617947
+Params Predictions MSE (scaled): 4.657492204223179
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.3030204772949 seconds
+Number of epochs: 738
+AdaHessian Inference time: 2.7762651443481444e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.014733446140973416
+Params Predictions MSE (scaled): 3.695434758105562
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.23315811157227 seconds
+Number of epochs: 387
+AdaHessian Inference time: 2.9052827093336317e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.0190766853563257
+Params Predictions MSE (scaled): 7.8795266404766995
+-----------------------------
+
+MANUAL SEED: 6
+Traning with batch size = 64
+Training time: 300.8154728412628 seconds
+Number of epochs: 292
+AdaHessian Inference time: 2.745860152774387e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009357948986329903
+Params Predictions MSE (scaled): 3.90218840138823
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.575156211853 seconds
+Number of epochs: 501
+AdaHessian Inference time: 2.7206937472025552e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.00816509087047193
+Params Predictions MSE (scaled): 1.8530580416779772
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.4780738353729 seconds
+Number of epochs: 644
+AdaHessian Inference time: 4.219220744238959e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.010918756316368424
+Params Predictions MSE (scaled): 4.629521872379973
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.2851207256317 seconds
+Number of epochs: 733
+AdaHessian Inference time: 2.8115577167934842e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.03899517819575207
+Params Predictions MSE (scaled): 4.885385497651605
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.44560170173645 seconds
+Number of epochs: 387
+AdaHessian Inference time: 2.9237270355224608e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.03201029774070443
+Params Predictions MSE (scaled): 4.671791816190564
+-----------------------------
+
+
+MANUAL SEED: 7
+Traning with batch size = 64
+Training time: 300.75075101852417 seconds
+Number of epochs: 294
+AdaHessian Inference time: 2.713183561960856e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.011263450108121076
+Params Predictions MSE (scaled): 3.5561389854098824
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.25220799446106 seconds
+Number of epochs: 500
+AdaHessian Inference time: 2.6984744601779514e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.008306211156394872
+Params Predictions MSE (scaled): 2.863739401683194
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.23932337760925 seconds
+Number of epochs: 649
+AdaHessian Inference time: 2.7244091033935546e-05 seconds
+MSE of hysteresis loops with AdaHessian: 366793015.2008291
+Params Predictions MSE (scaled): 35487327385.384125
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.16678762435913 seconds
+Number of epochs: 742
+AdaHessian Inference time: 2.7489595943027074e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009571521569040273
+Params Predictions MSE (scaled): 0.6862290898188081
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.3455321788788 seconds
+Number of epochs: 388
+AdaHessian Inference time: 2.9199918111165364e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.018802271526937652
+Params Predictions MSE (scaled): 6.079525416337116
+-----------------------------
+
+
+MANUAL SEED: 8
+Traning with batch size = 64
+Training time: 300.2365436553955 seconds
+Number of epochs: 294
+AdaHessian Inference time: 2.7330054177178278e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.010829882737140459
+Params Predictions MSE (scaled): 3.1752569519615035
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.3930003643036 seconds
+Number of epochs: 503
+AdaHessian Inference time: 2.7627415127224393e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.010476433161830083
+Params Predictions MSE (scaled): 3.0977330612874265
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.19199085235596 seconds
+Number of epochs: 649
+AdaHessian Inference time: 2.6789704958597818e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.022921673900326966
+Params Predictions MSE (scaled): 4.742402126465514
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.0453715324402 seconds
+Number of epochs: 728
+AdaHessian Inference time: 2.789245711432563e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.018065056664534812
+Params Predictions MSE (scaled): 6.756429978220644
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.7179009914398 seconds
+Number of epochs: 387
+AdaHessian Inference time: 2.8715597258673774e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.021825157814282525
+Params Predictions MSE (scaled): 5.05239252792248
+-----------------------------
+
+
+MANUAL SEED: 9
+Traning with batch size = 64
+Training time: 300.2005138397217 seconds
+Number of epochs: 294
+AdaHessian Inference time: 2.7177996105617946e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.010878222495373307
+Params Predictions MSE (scaled): 5.220095018110147
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.1311445236206 seconds
+Number of epochs: 501
+AdaHessian Inference time: 2.6997062895033094e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.007769917352177799
+Params Predictions MSE (scaled): 1.830908651476468
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.3548619747162 seconds
+Number of epochs: 650
+AdaHessian Inference time: 2.7191970083448623e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.008646966645017769
+Params Predictions MSE (scaled): 3.3524323812870063
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.37074995040894 seconds
+Number of epochs: 736
+AdaHessian Inference time: 2.8016103638543024e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.015384724155844812
+Params Predictions MSE (scaled): 6.73502651639544
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.6774308681488 seconds
+Number of epochs: 387
+AdaHessian Inference time: 2.903070714738634e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.020146365082227245
+Params Predictions MSE (scaled): 6.906765234894638
+-----------------------------
+
+
+MANUAL SEED: 10
+Traning with batch size = 64
+Training time: 300.7716746330261 seconds
+Number of epochs: 296
+AdaHessian Inference time: 2.7099185519748265e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.011123064390869344
+Params Predictions MSE (scaled): 6.025975973701178
+-----------------------------
+
+
+Traning with batch size = 128
+Training time: 300.0478811264038 seconds
+Number of epochs: 501
+AdaHessian Inference time: 2.8054449293348524e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.00820856889535458
+Params Predictions MSE (scaled): 1.78014893242361
+-----------------------------
+
+
+Traning with batch size = 256
+Training time: 300.18022060394287 seconds
+Number of epochs: 649
+AdaHessian Inference time: 2.6843812730577255e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.009342418841945772
+Params Predictions MSE (scaled): 2.566206433575578
+-----------------------------
+
+
+Traning with batch size = 512
+Training time: 300.14745259284973 seconds
+Number of epochs: 742
+AdaHessian Inference time: 2.7724438243442113e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.022273324318026366
+Params Predictions MSE (scaled): 4.096551161922206
+-----------------------------
+
+
+Traning with batch size = 1024
+Training time: 300.7324655056 seconds
+Number of epochs: 389
+AdaHessian Inference time: 2.8781228595309787e-05 seconds
+MSE of hysteresis loops with AdaHessian: 0.013701771523946244
+Params Predictions MSE (scaled): 5.536827775545498
+-----------------------------
