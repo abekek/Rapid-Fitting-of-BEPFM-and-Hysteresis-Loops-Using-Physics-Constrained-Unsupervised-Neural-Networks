@@ -4,48 +4,50 @@
 
 Alibek T. Kaliyev<sup>1,2</sup>, 
 Ryan Forelli<sup>5</sup>, 
-Pedro Sales<sup>7</sup>, 
+Pedro Sales<sup>8</sup>, 
 Shuyu Qin<sup>1</sup>, 
 Yichen Guo<sup>3</sup>, 
 Olugbodi (FJ) Oluwafolajinmi<sup>5</sup>,
-Andrew Zheng<sup>6</sup>,
-Seda Ogrenci Memik<sup>12</sup>,
-Michael W. Mahoney<sup>11</sup>, 
-Amir Gholami<sup>11</sup>, 
-Rama K. Vasudevan<sup>9</sup>, 
-Stephen Jesse<sup>9</sup>, 
-Nhan Tran<sup>10</sup>, 
-Philip Harris<sup>8</sup>, 
+Andrew Zheng<sup>8</sup>,
+Seda Ogrenci Memik<sup>13</sup>,
+Michael W. Mahoney<sup>12</sup>, 
+Amir Gholami<sup>12</sup>, 
+Rama K. Vasudevan<sup>10</sup>, 
+Stephen Jesse<sup>10</sup>, 
+Nhan Tran<sup>11</sup>, 
+Philip Harris<sup>9</sup>, 
 Martin Takáč<sup>4</sup>, 
-Joshua C. Agar<sup>3*</sup>
+Joshua C. Agar<sup>6*</sup>
 
 ___
 
-<sup>1</sup> Department of Computer Science and Engineering, Lehigh University, Bethlehem, PA 18015, USA
+<sup>1</sup> Department of Computer Science and Engineering, Lehigh University, Bethlehem, Pennsylvania
 
-<sup>2</sup> College of Business, Lehigh University, Bethlehem, PA 18015, USA
+<sup>2</sup> College of Business, Lehigh University, Bethlehem, Pennsylvania
 
-<sup>3</sup> Department of Materials Science and Engineering, Lehigh University, Bethlehem, PA 18015, USA
+<sup>3</sup> Department of Materials Science and Engineering, Lehigh University, Bethlehem, Pennsylvania
 
-<sup>4</sup> Department of Industrial and Systems Engineering, Lehigh University, Bethlehem, PA 18015, USA
+<sup>4</sup> Department of Industrial and Systems Engineering, Lehigh University, Bethlehem, Pennsylvania
 
-<sup>5</sup> Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA 18015, USA
+<sup>5</sup> Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, Pennsylvania
 
-<sup>6</sup> Department of Mechanical Engineering & Mechanics, Lehigh University, Bethlehem, PA 18015, USA
+<sup>6</sup> Department of Mechanical Engineering and Mechanics, Drexel University, Philadelphia, Pennsylvania
 
-<sup>7</sup> Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA
+<sup>7</sup> Department of Mechanical Engineering, Columbia University, New York City, New York
 
-<sup>8</sup> Department of Physics, Massachusetts Institute of Technology (MIT), Cambridge, MA, USA
+<sup>8</sup> Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology (MIT), Cambridge, Massachusetts
 
-<sup>9</sup> Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37830, USA
+<sup>9</sup> Department of Physics, Massachusetts Institute of Technology (MIT), Cambridge, Massachusetts
 
-<sup>10</sup> Fermi National Accelerator Laboratory, Batavia, IL 60510, USA
+<sup>10</sup> Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, Tennessee
 
-<sup>11</sup> University of California, Berkeley, Berkeley, CA 94720, USA
+<sup>11</sup> Fermi National Accelerator Laboratory, Batavia, Illinois
 
-<sup>12</sup> Department of Electrical and Computer Engineering, Northwestern University, Evanston, IL 60208, USA
+<sup>12</sup> Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, California
 
-*Address correspondence to: joshua.agar@lehigh.edu
+<sup>13</sup> Department of Electrical and Computer Engineering, Northwestern University, Illinois
+
+*Address correspondence to: jca92@drexel.edu
 
 ___
 
